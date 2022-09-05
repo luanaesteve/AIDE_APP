@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Berkshire Swash');
+@import url("https://fonts.googleapis.com/css?family=Sofia");
 *{
   margin: 0 auto;
   padding: 0 auto;
@@ -158,6 +159,7 @@ text-align: center;
 color: #FFFFFF;
 }
 
-.h11{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.titulo{
+  font-family: "Sofia", sans-serif;
+  color: rgb(223, 223, 223);;
 }
