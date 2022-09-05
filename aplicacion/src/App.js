@@ -7,8 +7,6 @@ import linea2 from './UI/Assets/linea2.png';
 import google from './UI/Assets/google.png';
 import tw from './UI/Assets/tw.png';
 import facebook from './UI/Assets/facebook.png';
-
-
 import GoogleLogin from 'react-google-login';
 
 function App() {
@@ -28,11 +26,12 @@ function App() {
         <img className='linea1' src={linea1} alt="" />
         <img className='lineaa1' src={linea1} alt="" />
         <img className='linea2' src={linea2} alt="" />
+        
 
         <GoogleLogin className='btngoogle'
           clientId="379496142178-b617hq8v4dkbf0agnin7mi86kk3hbr8h.apps.googleusercontent.com"
           render={renderProps => (
-            <button onClick={renderProps.onClick} disabled={renderProps.disabled}>aca google</button>
+            <img src={google} onClick={renderProps.onClick} disabled={renderProps.disabled}></img>
           )}
           onSuccess={respuestaGoogle}
           onFailure={respuestaGoogle}

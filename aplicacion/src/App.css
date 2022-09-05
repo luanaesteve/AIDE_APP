@@ -83,13 +83,12 @@ border: 1px solid #D9D9D9;
 transform: rotate(90deg);
 }
 
-.btngoogle {
+.google {
   position: absolute;
   width: 45px;
   height: 44px;
   left: 67px;
   top: 609px;
-  background: none;
 }
 
 
