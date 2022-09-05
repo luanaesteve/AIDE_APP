@@ -1,13 +1,17 @@
 import './App.css';
-import { ReactDOM } from 'react';
 import React from 'react';
-import App from './App';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      hello react
+    <div className="Container">
+      <div className="row">
+        <div className="col-md-5">
+          <Signup />
+        </div>
+        <div className="col-md-7 my-auto">
+          <img className="img-fluid w-100" src={rocketImg} alt=""/>
+        </div>
+      </div>
     </div>
   );
 }
