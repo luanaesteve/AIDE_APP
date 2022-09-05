@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Berkshire Swash');
 *{
   margin: 0 auto;
   padding: 0 auto;
@@ -15,10 +15,6 @@ body {
   font-family: 'Roboto', sans-serif;
   
   }
-
-label {
-  font-size: 10;
-}
 
 input.form-control {
   position: center;
@@ -43,4 +39,19 @@ img {
   width: 360px;
   height: 800px;
   background: linear-gradient(90deg, #42275A 0%, #734B6D 100%);
+}
+
+.boton {
+width: 145px;
+height: 31px;
+background-color: rgba(181, 159, 215, 0.54);
+border-radius: 10px;
+border: none;
+font-family: 'Berkshire Swash';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
 }
