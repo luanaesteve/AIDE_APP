@@ -2,9 +2,7 @@ import './App.css';
 import React from 'react';
 import { Login } from './UI/Components/Login';
 import Superiorlogin from './UI/Assets/Superiorlogin.png';
-import {StyleSheet,Text,View, Dimensions} from 'react-native';
 
-import { width, height, totalSize } from 'react-native-dimension';
 function App() {
   return (
     <div className="App">
