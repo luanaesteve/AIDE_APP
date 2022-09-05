@@ -7,6 +7,10 @@ import linea2 from './UI/Assets/linea2.png';
 import google from './UI/Assets/google.png';
 import tw from './UI/Assets/tw.png';
 import facebook from './UI/Assets/facebook.png';
+import GoogleLogin from 'react-google-login';
+
+
+
 function App() {
   return (
     <div className="App">
