@@ -36,8 +36,8 @@ export const Login = () => {
         <div>
           <h1 className="h11">Ingresar</h1>
           <Form>
-            <TextField label="Email" name="email" type="email" />
-            <TextField label="password" name="password" type="password" />
+            <TextField label="Email" name="email" type="email" placeholder="Email" />
+            <TextField label="password" name="password" type="password" placeholder="Contraseña" />
             <button className="boton" type="submit">Login</button>
           </Form>
         </div>
