@@ -2,11 +2,13 @@ import './App.css';
 import React from 'react';
 import { Login } from './UI/Components/Login';
 import Superiorlogin from './UI/Assets/Superiorlogin.png';
+import {StyleSheet,Text,View, Dimensions} from 'react-native';
 
+import { width, height, totalSize } from 'react-native-dimension';
 function App() {
   return (
-    <div className="Container">
-       <div className="col-md-7 my-auto">
+    <div className="App">
+       <div className="Container">
          <img className='' src={Superiorlogin} alt=""/>
       <div className="row">
         <div className="col-md-5">
