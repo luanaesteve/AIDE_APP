@@ -83,14 +83,15 @@ border: 1px solid #D9D9D9;
 transform: rotate(90deg);
 }
 
-.google{
+.btngoogle {
   position: absolute;
   width: 45px;
   height: 44px;
   left: 67px;
   top: 609px;
-  color:#FFFFFF
+  background: none;
 }
+
 
 .facebook{
   position: absolute;

@@ -13,7 +13,7 @@ import GoogleLogin from 'react-google-login';
 
 function App() {
 
-  const respuestaGoogle=(respuesta)=>{
+  const respuestaGoogle = (respuesta) => {
     console.log(respuesta);
   }
 
@@ -22,27 +22,28 @@ function App() {
     <div className="App">
 
 
-<GoogleLogin
-    clientId="379496142178-b617hq8v4dkbf0agnin7mi86kk3hbr8h.apps.googleusercontent.com"
-    buttonText="Login"
-    onSuccess={respuestaGoogle}
-    onFailure={respuestaGoogle}
-    cookiePolicy={'single_host_origin'}
-  />,
+      <div className="Container">
+        <img className='' src={Superiorlogin} alt="" />
+        <Login />
+        <img className='linea1' src={linea1} alt="" />
+        <img className='lineaa1' src={linea1} alt="" />
+        <img className='linea2' src={linea2} alt="" />
 
+        <GoogleLogin className='btngoogle'
+          clientId="379496142178-b617hq8v4dkbf0agnin7mi86kk3hbr8h.apps.googleusercontent.com"
+          render={renderProps => (
+            <button onClick={renderProps.onClick} disabled={renderProps.disabled}>aca google</button>
+          )}
+          onSuccess={respuestaGoogle}
+          onFailure={respuestaGoogle}
+          cookiePolicy={'single_host_origin'}
+        />,
 
-       <div className="Container">
-         <img className='' src={Superiorlogin} alt=""/>
-         <Login/>
-         <img className='linea1' src={linea1} alt=""/>
-         <img className='lineaa1' src={linea1} alt=""/>
-         <img className='linea2' src={linea2} alt=""/>
-         <img className='google' src={google} alt=""/>
-         <img className='facebook' src={facebook} alt=""/>
-         <img className='tw' src={tw} alt=""/>
-         <a className='contraseñaolvidada' href="contraseñaolvidada">¿Te olvidaste tu contraseña?</a>
-         <a className='registrarse' href="registrarse">Registrarse</a>
-         <p className='copyright'>© 2022 L.A.N. All Rights Reserved.</p>
+        <img className='facebook' src={facebook} alt="" />
+        <img className='tw' src={tw} alt="" />
+        <a className='contraseñaolvidada' href="contraseñaolvidada">¿Te olvidaste tu contraseña?</a>
+        <a className='registrarse' href="registrarse">Registrarse</a>
+        <p className='copyright'>© 2022 L.A.N. All Rights Reserved.</p>
 
       </div>
     </div>
