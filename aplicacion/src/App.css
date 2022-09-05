@@ -110,17 +110,7 @@ transform: rotate(90deg);
   top: 604px;
   color: #FFFFFF;
 }
-.google:hover{
- color: red !important
-}
 
-.facebook:hover{
-
-}
-
-.tw {
- 
-}
 .contraseñaolvidada{
   position: absolute;
   width: 168px;
