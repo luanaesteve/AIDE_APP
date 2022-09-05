@@ -28,10 +28,10 @@ function App() {
         <img className='linea2' src={linea2} alt="" />
         
 
-        <GoogleLogin className='btngoogle'
+        <GoogleLogin 
           clientId="379496142178-b617hq8v4dkbf0agnin7mi86kk3hbr8h.apps.googleusercontent.com"
           render={renderProps => (
-            <img src={google} onClick={renderProps.onClick} disabled={renderProps.disabled}></img>
+            <img className='google' src={google} onClick={renderProps.onClick} disabled={renderProps.disabled}></img>
           )}
           onSuccess={respuestaGoogle}
           onFailure={respuestaGoogle}
