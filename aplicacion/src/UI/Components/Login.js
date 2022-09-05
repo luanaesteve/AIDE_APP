@@ -24,11 +24,8 @@ export const Login = () => {
   return (
     <Formik
       initialValues={{
-        firstName: '',
-        lastName: '',
         email: '',
         password: '',
-        confirmPassword: ''
       }}
       validationSchema={validate}
       onSubmit={values => {
@@ -36,16 +33,12 @@ export const Login = () => {
       }}
     >
       {formik => (
-        <div>
-          <h1 className="my-4 font-weight-bold .display-4">Sign Up</h1>
+        <div className='formi'>
+          <h1 className="my-4 font-weight-bold .display-4">INICIAR</h1>
           <Form>
-            <TextField label="First Name" name="firstName" type="text" />
-            <TextField label="last Name" name="lastName" type="text" />
             <TextField label="Email" name="email" type="email" />
-            <TextField label="password" name="password" type="password" />
-            <TextField label="Confirm Password" name="confirmPassword" type="password" />
+            <TextField label="Contraseña" name="password" type="password" />
             <button className="btn btn-dark mt-3" type="submit">Register</button>
-            <button className="btn btn-danger mt-3 ml-3" type="reset">Reset</button>
           </Form>
         </div>
       )}

@@ -8,8 +8,7 @@
   box-sizing: border-box;
   justify-content: center;
   position: relative;
-
-  background: linear-gradient(90deg, #42275A 0%, #734B6D 100%);
+  
 }
 
 body {
@@ -21,12 +20,17 @@ label {
   font-size: 10;
 }
 
-input.form-control, input.form-control:focus {
+input.form-control {
+  position: center;
+  width: 227px;
+  height: 33px;
+  left: 67px;
   background: #D9D9D9;
+  border-radius: 10px;
 }
 
 .error {
-  position: absolute;
+  position: center;
   color: rgb(255, 255, 255);
   font-size: .6rem;
 }
@@ -35,7 +39,8 @@ img {
 
 }
 
-.Container{
+.Container  {
   width: 360px;
   height: 800px;
+  background: linear-gradient(90deg, #42275A 0%, #734B6D 100%);
 }
