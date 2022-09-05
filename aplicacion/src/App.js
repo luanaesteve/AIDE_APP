@@ -2,6 +2,11 @@ import './App.css';
 import React from 'react';
 import { Login } from './UI/Components/Login';
 import Superiorlogin from './UI/Assets/Superiorlogin.png';
+import linea1 from './UI/Assets/linea1.png';
+import linea2 from './UI/Assets/linea2.png';
+import google from './UI/Assets/google.png';
+import tw from './UI/Assets/tw.png';
+import facebook from './UI/Assets/facebook.png';
 function App() {
   return (
     <div className="App">
