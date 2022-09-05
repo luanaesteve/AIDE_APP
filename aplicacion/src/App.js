@@ -9,12 +9,8 @@ function App() {
     <div className="App">
        <div className="Container">
          <img className='' src={Superiorlogin} alt=""/>
-      <div className="row">
-        <div className="col-md-5">
-          <Login/>
-        </div>
-       
-        </div>
+         <Login/>
+         
       </div>
     </div>
   );
