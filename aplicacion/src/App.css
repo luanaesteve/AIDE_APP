@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Berkshire Swash');
 @import url("https://fonts.googleapis.com/css?family=Sofia");
 *{
   margin: 0 auto;
@@ -48,7 +47,7 @@ height: 31px;
 background-color: rgba(181, 159, 215, 0.54);
 border-radius: 10px;
 border: none;
-font-family: 'Berkshire Swash';
+font-family: "Sofia", sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
@@ -125,7 +124,8 @@ transform: rotate(90deg);
   line-height: 19px;
   text-align: center;
   text-decoration:none;
-  color: #FFFFFF;}
+  display: inline-block;
+}
 
 .registrarse {
   position: absolute;
@@ -140,7 +140,9 @@ font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 text-align: center;
-color: #FFFFFF;
+}
+.contraseñaolvidada, .registrarse, a:hover{
+  color: #aca8a8;
 }
 
 .copyright {
@@ -156,7 +158,7 @@ font-weight: 400;
 font-size: 13px;
 line-height: 15px;
 text-align: center;
-color: #FFFFFF;
+color: #8a8a8a;
 }
 
 .titulo{
