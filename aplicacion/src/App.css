@@ -3,6 +3,10 @@
 *{
 text-align: center;
 position: center;
+box-sizing: border-box;
+background-color: #734B6D;
+overflow: auto;
+
 
 }
 body {
@@ -15,11 +19,18 @@ label {
 }
 
 input.form-control, input.form-control:focus {
-  background: #F0F0FF;
+  background: #D9D9D9;
 }
 
 .error {
   position: absolute;
-  color: red;
+  color: rgb(255, 255, 255);
   font-size: .6rem;
+}
+
+
+img, svg{
+  vertical-align: center;
+ 
+
 }
