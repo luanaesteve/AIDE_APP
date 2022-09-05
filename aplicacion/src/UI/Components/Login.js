@@ -6,10 +6,10 @@ import * as Yup from 'yup';
 export const Login = () => {
   const validate = Yup.object({
     email: Yup.string()
-      .email('Email is invalid')
-      .required('Email is required'),
+      .email('El email es invalido')
+      .required('Email requerido'),
     password: Yup.string()
-      .min(6, 'La contraseña debe tener 6 caracteres.')
+      .min(6, 'La contraseña debe tener al menos 6 caracteres.')
       .required('Contraseña requerida'),
   })
   return (
