@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
-text-align: center;
-position: center;
+  margin: 0;
+  padding: 0;
+align-items: center;
 box-sizing: border-box;
+justify-content: center;
 background-color: #734B6D;
-overflow: auto;
-
-
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   
   }
 
 label {
-  font-size: .7rem;
+  font-size: 10;
 }
 
 input.form-control, input.form-control:focus {
@@ -27,10 +27,11 @@ input.form-control, input.form-control:focus {
   color: rgb(255, 255, 255);
   font-size: .6rem;
 }
-
-
-img, svg{
-  vertical-align: center;
- 
+img {
+  margin: 0;
+  padding: 10;
+align-items: center;
+box-sizing: border-box;
+justify-content: center;
 
 }
