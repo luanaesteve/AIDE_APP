@@ -7,13 +7,30 @@ import linea2 from './UI/Assets/linea2.png';
 import google from './UI/Assets/google.png';
 import tw from './UI/Assets/tw.png';
 import facebook from './UI/Assets/facebook.png';
+
+
 import GoogleLogin from 'react-google-login';
 
-
-
 function App() {
+
+  const respuestaGoogle=(respuesta)=>{
+    console.log(respuesta);
+  }
+
+
   return (
     <div className="App">
+
+
+<GoogleLogin
+    clientId="379496142178-b617hq8v4dkbf0agnin7mi86kk3hbr8h.apps.googleusercontent.com"
+    buttonText="Login"
+    onSuccess={respuestaGoogle}
+    onFailure={respuestaGoogle}
+    cookiePolicy={'single_host_origin'}
+  />,
+
+
        <div className="Container">
          <img className='' src={Superiorlogin} alt=""/>
          <Login/>
