@@ -1,15 +1,17 @@
 import './App.css';
 import React from 'react';
+import { Login } from './UI/Components/Login';
+import Superiorlogin from './UI/Assets/Superiorlogin.png';
 
 function App() {
   return (
     <div className="Container">
       <div className="row">
         <div className="col-md-5">
-          <Signup />
+          <Login/>
         </div>
         <div className="col-md-7 my-auto">
-          <img className="img-fluid w-100" src={rocketImg} alt=""/>
+         <img className='' src={Superiorlogin} alt=""/>
         </div>
       </div>
     </div>
