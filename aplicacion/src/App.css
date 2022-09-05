@@ -50,6 +50,12 @@ font-size: 20px;
 line-height: 25px;
 text-align: center;
 color: #FFFFFF;
+display: inline-block;
+}
+
+.boton:hover{
+background-color: #42275A;
+
 }
 
 .linea1{
@@ -122,6 +128,7 @@ transform: rotate(90deg);
   text-align: center;
   text-decoration:none;
   display: inline-block;
+  color: #D9D9D9;
 }
 
 .registrarse {
@@ -137,8 +144,10 @@ font-weight: 400;
 font-size: 16px;
 line-height: 19px;
 text-align: center;
+display: inline-block;
+color: #D9D9D9;
 }
-.contraseñaolvidada, .registrarse, a:hover{
+.contraseñaolvidada:hover, .registrarse:hover{
   color: #aca8a8;
 }
 
