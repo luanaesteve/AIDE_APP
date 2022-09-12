@@ -30,7 +30,7 @@ export const Login = () => {
           <Form>
             <TextField name="email" type="email" placeholder="Email" />
             <TextField name="password" type="password" placeholder="Contraseña" />
-            <button onPress={()=> Navigation.navigate('Root')} id='submit' className="boton" type="submit">Login</button>
+            <button onPress={()=> navigation.navigate('Root')} id='submit' className="boton" type="submit">Login</button>
           </Form>
         </div>
       )}
