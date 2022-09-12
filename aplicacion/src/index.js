@@ -11,6 +11,7 @@ export const Navigation = () => (
     return (
         <NavigationContainer>
             <Stack.Navigator initialRouteName='welcome'>
+              <h1>skjajakjajkjkaakj</h1>
                 <Stack.Screen name="welcome"component={WelcomeScreen} options={{ headerShown: false }} />
                 <Stack.Screen name="welcome"component={WelcomeScreen} options={{ title: ', headerShown: false' }} />
             </Stack.Navigator>
