@@ -1,7 +1,32 @@
 import react from 'react';
 import {View, Text} from 'react-native';
-import { NavigateContainer } from '@react-navigation/bottom-tabs';
+import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 const Tab = createBottomTabNavigator();
+function HomeScreen() {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text>Home!</Text>
+      </View>
+    );
+  }
+  
+  function SettingsScreen() {
+    return (
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <Text>Settings!</Text>
+      </View>
+    );
+  }
 
-function HomeScreen()
+  export const BottonNavigation =()=>{
+    return(
+        <NavigationContainer>
+            <Tab.Navigator>
+            <Tab.Screen name="Home" component={HomeScreen}/>
+            <Tab.Screen name="Settings" component={SettingsScreen}/>
+            </Tab.Navigator>
+        </NavigationContainer>
+    )
+  }
