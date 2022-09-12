@@ -15,23 +15,23 @@ function App() {
   const respuestaGoogle = (respuesta) => {
     console.log(respuesta);
   }
-
-  //Login con Facebook
+  
+  //Login con Facebook:
  
 
-  //Login con Twitter
+  //Login con Twitter:
 
-  //Return
+//Lineas e iconos/imag:
 
   return (
     <div className="App">
-
-
+  
+    
       <div className="Container">
 
         <img className='' src={Superiorlogin} alt="" />
         <Login />
-        <img className='linea1' src={linea1} alt="" />
+          <img className='linea1' src={linea1} alt="" />
         <img className='lineaa1' src={linea1} alt="" />
         <img className='linea2' src={linea2} alt="" />
 
@@ -60,3 +60,4 @@ function App() {
 }
 
 export default App;
+    
