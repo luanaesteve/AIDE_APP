@@ -7,7 +7,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator();
 
-export const Navigation = () => (
+export const Navigation = () => {
     return (
         <NavigationContainer>
             <Stack.Navigator initialRouteName='welcome'>
@@ -16,5 +16,4 @@ export const Navigation = () => (
                 <Stack.Screen name="welcome"component={WelcomeScreen} options={{ title: ', headerShown: false' }} />
             </Stack.Navigator>
         </NavigationContainer>
-    )
-)
+    ) }
