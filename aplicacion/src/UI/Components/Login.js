@@ -2,7 +2,7 @@ import React from 'react';
 import { Formik, Form } from 'formik';
 import { TextField } from './TextField';
 
-export const Login = (props) => {
+export const Login = (prop) => {
   /*
   const validate = Yup.object({
     email: Yup.string()
@@ -30,7 +30,7 @@ export const Login = (props) => {
           <Form>
             <TextField name="email" type="email" placeholder="Email" />
             <TextField name="password" type="password" placeholder="Contraseña" />
-            <button onPress={()=> navigation.navigate('Home')} id='submit' className="boton" type="submit">Login</button>
+            <button id='submit' className="boton" type="submit">Login</button>
           </Form>
         </div>
       )}
