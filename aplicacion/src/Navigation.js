@@ -1,2 +1,2 @@
 import React from "react";
-import {creat} from ;
+import {createButtonTabNavigator} from "@react-navigation/button/tabs" ;
