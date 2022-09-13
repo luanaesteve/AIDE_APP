@@ -1,4 +1,4 @@
-import react from 'react';
+/*import react from 'react';
 import {View, Text} from 'react-native';
 import {HomeScreen} from './UI/Components/HomeScreen';
 import { Login } from '..Login';
@@ -18,4 +18,4 @@ export const Navigation = () => {
             </Stack.Navigator>
         </NavigationContainer>
     )
-}
+}*/
