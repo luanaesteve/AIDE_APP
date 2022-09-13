@@ -23,7 +23,8 @@ function HomeScreen() {
   export const BottonNavigation =()=>{
     return(
         <NavigationContainer>
-            <Tab.Navigator initialRouteName='Home'>
+            <Tab.Navigator initialRouteName='Login'>
+            <Tab.Screen name="Login" component={Login} />
             <Tab.Screen name="Home" component={HomeScreen}/>
             <Tab.Screen name="Settings" component={SettingsScreen}/>
             </Tab.Navigator>
