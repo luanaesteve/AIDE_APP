@@ -28,7 +28,6 @@ export default function App() {
       <Tab.Navigator>
       <Tab.Screen name="Login" component={Login} />
         <Tab.Screen name="Home" component={HomeScreen} />
-        <Tab.Screen name="Settings" component={SettingsScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );
