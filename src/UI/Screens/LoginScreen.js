@@ -1,5 +1,4 @@
 import { useState, useAuth } from "react";
-import { context } from '../Context/authContext'
 
 export default function LoginScreen() {
   const {} = useAuth()
