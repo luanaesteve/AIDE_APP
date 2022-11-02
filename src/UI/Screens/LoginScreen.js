@@ -1,7 +1,7 @@
 import React from 'react';
 import { Formik, Form } from 'formik';
 import { TextField } from '../Component/TextField';
-import Superiorlogin from '../Assets/Superiorlogin.png';
+import Superiorlogin from './Assets/Superiorlogin.png';
 import linea1 from '../Assets/linea1.png';
 import linea2 from '../Assets/linea2.png';
 import google from '../Assets/google.png';
