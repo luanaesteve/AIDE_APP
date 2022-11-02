@@ -9,10 +9,10 @@ export default function Navbar(){
                 <NavLink to='/ '>Login</NavLink>
             </li>
             <li>
-            <NavLink to='/HomeScreen'>Home</NavLink>
+            <NavLink to='/Home'>Home</NavLink>
             </li>
             <li>
-                <NavLink to='/RegisterScreen'>Register</NavLink>
+                <NavLink to='/Register'>Register</NavLink>
             </li>
           </ul>
         </div>
