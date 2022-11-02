@@ -8,7 +8,6 @@ import google from '../Image/google.png';
 import facebook from '../Image/facebook.png';
 import tw from '../Image/tw.png';
 import GoogleLogin from 'react-google-login';
-import { useNavigate } from 'react-router-dom';
 
 export default function LoginScreen() {
   
