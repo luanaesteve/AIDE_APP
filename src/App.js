@@ -11,8 +11,8 @@ return(
   <Navbar/>
   <Routes>
     <Route path='/' element= {<LoginScreen/>} />
-    <Route path='/register' element= {<RegisterScreen/>} />
-    <Route path='/home' element= {<HomeScreen/>} />
+    <Route path='/Register' element= {<RegisterScreen/>} />
+    <Route path='/Home' element= {<HomeScreen/>} />
     </Routes>
   </BrowserRouter>
 );
