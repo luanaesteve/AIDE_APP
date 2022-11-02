@@ -1,12 +1,12 @@
 import React from 'react';
 import { Formik, Form } from 'formik';
-import { TextField } from '../Component/TextField';
-import Superiorlogin from './Assets/Superiorlogin.png';
-import linea1 from '../Assets/linea1.png';
-import linea2 from '../Assets/linea2.png';
-import google from '../Assets/google.png';
-import facebook from '../Assets/facebook.png';
-import tw from '../Assets/tw.png';
+import { TextField } from '../Components/TextField';
+import Superiorlogin from '../Image/Superiorlogin.png';
+import linea1 from '../Image/linea1.png';
+import linea2 from '../Image/linea2.png';
+import google from '../Image/google.png';
+import facebook from '../Image/facebook.png';
+import tw from '../Image/tw.png';
 import GoogleLogin from 'react-google-login';
 import { useNavigate } from 'react-router-dom';
 
