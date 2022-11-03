@@ -29,7 +29,7 @@ export default function LoginScreen() {
   const handleGoogleSignin = async () => {
     try {
       await loginWithGoogle();
-      navigate("/");
+      navigate("/home");
     } catch (error) {
       setError(error.message);
     }
