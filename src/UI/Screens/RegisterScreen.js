@@ -57,7 +57,7 @@ export default function RegisterScreen() {
             htmlFor="password"
             className="block text-gray-700 text-sm font-bold mb-2"
           >
-            Password
+            Contraseña
           </label>
           <input
             type="password"
@@ -68,13 +68,13 @@ export default function RegisterScreen() {
         </div>
 
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
-          Register
+          Registrarse
         </button>
       </form>
       <p className="my-4 text-sm flex justify-between px-3">
-        Already have an Account?
-        <Link to="/login" className="text-blue-700 hover:text-blue-900">
-          Login
+        Ya tiene una cuenta?
+        <Link to="/" className="text-700 hover:text-blue-900">
+          Loguearse
         </Link>
       </p>
     </div>

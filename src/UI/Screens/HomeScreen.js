@@ -20,7 +20,7 @@ export default function HomeScreen() {
           className="bg-slate-200 hover:bg-slate-300 rounded py-2 px-4 text-black"
           onClick={handleLogout}
         >
-          logout
+          Cerrar sesion 
         </button>
       </div>
     </div>

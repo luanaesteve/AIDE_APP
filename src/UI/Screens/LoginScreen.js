@@ -17,7 +17,7 @@ export default function LoginScreen() {
     setError("");
     try {
       await login(user.email, user.password);
-      navigate("/");
+      navigate("/home");
     } catch (error) {
       setError(error.message);
     }
@@ -37,10 +37,10 @@ export default function LoginScreen() {
 
   const handleResetPassword = async (e) => {
     e.preventDefault();
-    if (!user.email) return setError("Write an email to reset password");
+    if (!user.email) return setError("Escribi un email para cambiar la contraseña");
     try {
       await resetPassword(user.email);
-      setError('We sent you an email. Check your inbox')
+      setError('Te enviamos un email. Revisa tu buzon.')
     } catch (error) {
       setError(error.message);
     }
@@ -75,7 +75,7 @@ export default function LoginScreen() {
             htmlFor="password"
             className="block text-gray-700 text-sm font-bold mb-2"
           >
-            Password
+            Contraseña
           </label>
           <input
             type="password"
@@ -92,14 +92,14 @@ export default function LoginScreen() {
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="submit"
           >
-            Sign In
+            Login
           </button>
           <a
             className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800"
             href="#!"
             onClick={handleResetPassword}
           >
-            Forgot Password?
+            Te olvidaste tu contraseña?
           </a>
         </div>
       </form>
@@ -110,9 +110,9 @@ export default function LoginScreen() {
         Google login
       </button>
       <p className="my-4 text-sm flex justify-between px-3">
-        Don't have an account?
+        Ya tiene una cuenta?
         <Link to="/register" className="text-white-700 hover:text-blue-900">
-          Register
+          Registrarse
         </Link>
       </p>
     </div>
