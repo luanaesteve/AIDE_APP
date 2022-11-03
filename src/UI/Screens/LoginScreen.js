@@ -52,7 +52,7 @@ export default function LoginScreen() {
 
       <form
         onSubmit={handleSubmit}
-        className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
+        className="bg-white shadow-md rounded px-10 pt-10 pb-10 mb-1"
       >
         <div className="mb-4">
           <label
@@ -111,7 +111,7 @@ export default function LoginScreen() {
       </button>
       <p className="my-4 text-sm flex justify-between px-3">
         Don't have an account?
-        <Link to="/register" className="text-blue-700 hover:text-blue-900">
+        <Link to="/register" className="text-white-700 hover:text-blue-900">
           Register
         </Link>
       </p>
