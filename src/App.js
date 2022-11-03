@@ -9,6 +9,7 @@ import { ProtectedRoute } from '../src/UI/Screens/ProtectedRoute'
 
 function App(){
 return(
+  <div className="bg-slate-300 text-black h-screen flex text-white">
   <AuthProvider>
   <Routes>
     <Route path='/' element={<LoginScreen/>} />
@@ -16,6 +17,7 @@ return(
     <Route path='/home' element={<ProtectedRoute><HomeScreen/></ProtectedRoute>} />
     </Routes>
     </AuthProvider>
+    </div>
 );
 }
 export default App;

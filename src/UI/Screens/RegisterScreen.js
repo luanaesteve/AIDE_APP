@@ -21,6 +21,10 @@ export default function RegisterScreen() {
       await signup(user.email, user.password);
       navigate("/");
     } catch (error) {
+        console.log(error.code);
+        if (error.code === "auth/internal-error"){
+            setError('Correo invalido')
+        }
       setError(error.message);
     }
   };
