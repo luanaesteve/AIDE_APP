@@ -40,7 +40,7 @@ export default function LoginScreen() {
     if (!user.email) return setError("Escribi un email para cambiar la contraseña");
     try {
       await resetPassword(user.email);
-      setError('Te enviamos un email. Revisa tu buzon.')
+      setError('Te enviamos un email. Revisa tu buuzon.')
     } catch (error) {
       setError(error.message);
     }
