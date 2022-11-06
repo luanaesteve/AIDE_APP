@@ -47,17 +47,19 @@ export default function LoginScreen() {
   };
 
   return (
-    <div className="w-full max-w-xs m-auto">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-primary to-secondary">
       {error && <Alert message={error} />}
 
       <form
         onSubmit={handleSubmit}
-        className="bg-white shadow-md rounded px-10 pt-10 pb-10 mb-1"
+       
       >
+        <div class=" text-center block text-gray-700 text-sm font-bold mb-2 ">Ingresar</div>
+       
         <div className="mb-4">
           <label
             htmlFor="email"
-            className="block text-gray-700 text-sm font-bold mb-2"
+            className="block text-violetaosc text-sm font-bold mb-2"
           >
             Email
           </label>
@@ -66,14 +68,14 @@ export default function LoginScreen() {
             name="email"
             id="email"
             onChange={handleChange}
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-center - "
             placeholder="youremail@company.tld"
           />
         </div>
         <div className="mb-4">
           <label
             htmlFor="password"
-            className="block text-gray-700 text-sm font-bold mb-2"
+            className="block text-violetaosc text-sm font-bold mb-2"
           >
             Contraseña
           </label>
@@ -89,32 +91,34 @@ export default function LoginScreen() {
 
         <div className="flex items-center justify-between">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="flex items-center justify-center focus:outline-none text-white text-sm sm:text-base bg-violetita hover:bg-violetaosc rounded py-2 w-full transition duration-150 ease-in"
             type="submit"
           >
             Login
           </button>
+          </div>
+         
+       
+      </form>
+      <button
+        onClick={handleGoogleSignin}
+        className=" hover:bg-slate-200 text-black  shadow rounded border-2 border-gray-300 py-2 px-4"
+      >
+        Google login
+      </button>
+      <div className="flex items-center justify-between">
           <a
-            className="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800"
+            className="text-center font-bold text-sm ext-violetaosc hover:text-violetita"
             href="#!"
             onClick={handleResetPassword}
           >
             Te olvidaste tu contraseña?
           </a>
-        </div>
-      </form>
-      <button
-        onClick={handleGoogleSignin}
-        className="bg-slate-50 hover:bg-slate-200 text-black  shadow rounded border-2 border-gray-300 py-2 px-4 w-full"
-      >
-        Google login
-      </button>
-      <p className="my-4 text-sm flex justify-between px-3">
-        Ya tiene una cuenta?
-        <Link to="/register" className="text-white-700 hover:text-blue-900">
+          </div>
+     
+        <Link to="/register" className= "text-center font-bold text-violetaosc hover:text-violetita">
           Registrarse
         </Link>
-      </p>
     </div>
   );
 }
