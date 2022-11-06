@@ -9,7 +9,7 @@ import { ProtectedRoute } from '../src/UI/Screens/ProtectedRoute'
 
 function App(){
 return(
-  <div className="min-[320px]:text-center max-[600px]:bg-sky-300 bg-slate-500 text-black h-screen flex text-white sm:text-left sm:text-center md:max-xl:flex">
+  <div className="absolute top-0 left-0 right-0 bottom-0">
   <AuthProvider>
   <Routes>
     <Route path='/' element={<LoginScreen/>} />
