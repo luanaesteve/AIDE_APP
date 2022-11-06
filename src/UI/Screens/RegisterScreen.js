@@ -30,12 +30,12 @@ export default function RegisterScreen() {
   };
 
   return (
-    <div className="w-full max-w-xs m-auto text-black">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-primary to-secondary">
       {error && <Alert message={error} />}
 
       <form
         onSubmit={handleSubmit}
-        className="bg-white shadow-md rounded px-8 pt-6 pb-6 mb-4"
+     
       >
         <div className="mb-4">
           <label
@@ -67,14 +67,14 @@ export default function RegisterScreen() {
           />
         </div>
 
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+        <button className="flex items-center justify-center focus:outline-none text-white text-sm sm:text-base bg-blue-600 hover:bg-blue-700 rounded py-2 w-full transition duration-150 ease-in">
           Registrarse
         </button>
       </form>
-      <p className="my-4 text-sm flex justify-between px-3">
+      <p className="">
         Ya tiene una cuenta?
         <Link to="/" className="text-700 hover:text-blue-900">
-          Loguearse
+            Loguearse
         </Link>
       </p>
     </div>
