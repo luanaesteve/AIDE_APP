@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../Context/AuthContext";
 import { Alert } from "./Alert";
+import { Superiorlogin } from '../Image/Superiorlogin.png';
 
 export default function LoginScreen() {
   const [user, setUser] = useState({
@@ -50,9 +51,9 @@ export default function LoginScreen() {
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-primary to-secondary">
       {error && <Alert message={error} />}
 
+
       <form
         onSubmit={handleSubmit}
-       
       >
         <div class=" text-center block text-gray-700 text-sm font-bold mb-2 ">Ingresar</div>
        
