@@ -56,7 +56,7 @@ export default function LoginScreen() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-primary to-secondary">
       {error && <Alert message={error} />}
-      <div className=" items-center object-top justify-between">
+      <div className=" object-top justify-between w-50 h-50 object-center hover:object-top">
       <img src={Frame5} alt="" />
     
       </div>
@@ -128,7 +128,7 @@ export default function LoginScreen() {
           </a>
           </div>
      
-        <Link to="/register" className= "text-center font-bold text-violetaosc hover:text-violetita">
+        <Link to="/register" className= " text-center font-bold text-violetaosc hover:text-violetita ">
           Registrarse
         </Link>
     </div>
