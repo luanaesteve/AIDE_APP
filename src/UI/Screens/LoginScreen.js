@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../Context/AuthContext";
 import { Alert } from "./Alert";
-import Superiorlogin  from '../Image/Superiorlogin.png';
+import Frame5  from '../Image/Frame5.png';
 import linea1  from '../Image/linea1.png';
 import linea2  from '../Image/linea2.png';
 import google  from '../Image/google.png';
@@ -56,8 +56,8 @@ export default function LoginScreen() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-primary to-secondary">
       {error && <Alert message={error} />}
-      <div className="flex items-center justify-between">
-      <img className='flex items-center justify-between' src={Superiorlogin} alt="" />
+      <div className=" items-center object-top justify-between">
+      <img src={Frame5} alt="" />
     
       </div>
 
@@ -68,7 +68,7 @@ export default function LoginScreen() {
         <div className="mb-4">
           <label
             htmlFor="email"
-            className="block text-violetaosc text-sm font-bold mb-2"
+            className="text-violetaosc text-sm font-bold w-full max-w-screen-xl mx-auto px-4"
           >
             Email
           </label>
@@ -77,14 +77,14 @@ export default function LoginScreen() {
             name="email"
             id="email"
             onChange={handleChange}
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-center - "
+            className="shadow appearance-none border rounded text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-center w-full max-w-screen-xl mx-auto px-4 py-2"
             placeholder="youremail@company.tld"
           />
         </div>
         <div className="mb-4">
           <label
             htmlFor="password"
-            className="block text-violetaosc text-sm font-bold mb-2"
+            className="block text-violetaosc w-full max-w-screen-xl mx-auto px-4 font-bold"
           >
             Contraseña
           </label>
@@ -93,7 +93,7 @@ export default function LoginScreen() {
             name="password"
             id="password"
             onChange={handleChange}
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="shadow appearance-none border rounded w-full max-w-screen-xl mx-auto px-4 py-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             placeholder="*************"
           />
         </div>
@@ -107,20 +107,20 @@ export default function LoginScreen() {
           </button>
           </div>
           <img src={google}
-      onClick={handleGoogleSignin} className="inline-block p-3 rounded-full ">
+      onClick={handleGoogleSignin} className="inline-block p-9 rounded-full mx-auto ">
       </img>
-      <img src={facebook} className="inline-block p-3 rounded-full"
+      <img src={facebook} className="inline-block p-9 rounded-full mx-auto"
     >
       </img>
-      <img src={tw} className='inline-block p-3 rounded-full'
+      <img src={tw} className='inline-block p-9 rounded-full mx-auto'
     >
       </img>
        
       </form>
       
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between w-full max-w-screen-xl">
           <a
-            className="text-center font-bold text-sm ext-violetaosc hover:text-violetita"
+            className="text-center font-bold text-sm ext-violetaosc hover:text-violetita w-full max-w-screen-xl"
             href="#!"
             onClick={handleResetPassword}
           >
