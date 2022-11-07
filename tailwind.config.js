@@ -2,7 +2,49 @@
 module.exports = {
   content: [],
   theme: {
+<<<<<<< HEAD
     extend: {},
+=======
+    screens: {
+      'tablet': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'laptop': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'desktop': '1280px',
+      // => @media (min-width: 1280px) { ... }
+      'sm': '576px',
+      // => @media (min-width: 576px) { ... }
+    
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+    
+      'lg': '992px',
+      // => @media (min-width: 992px) { ... }
+    
+      'xl': '1200px',
+      // => @media (min-width: 1200px) { ... }
+    },
+    extend: {
+      colors: {
+        'primary': '#42275A',
+        'secondary': '#734B6D',
+        'violetita': '#B59FD7',
+        'gris': '#D9D9D9',
+        'violetaosc':'#230631',
+        'blue': '#1fb6ff',
+      'pink': '#ff49db',
+      'orange': '#ff7849',
+      'green': '#13ce66',
+      'gray-dark': '#273444',
+      'gray': '#8492a6',
+      'gray-light': '#d3dce6',
+      'black': '#000000',
+      'white': '#FFFFFF'
+      }
+    },
+>>>>>>> 141d74f51c96dfcb7314d3acd2a6debed778fec3
   },
   plugins: [],
 }
