@@ -2,7 +2,13 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../Context/AuthContext";
 import { Alert } from "./Alert";
-import { Superiorlogin } from '../Image/Superiorlogin.png';
+import Superiorlogin  from '../Image/Superiorlogin.png';
+import linea1  from '../Image/linea1.png';
+import linea2  from '../Image/linea2.png';
+import google  from '../Image/google.png';
+import facebook  from '../Image/facebook.png';
+import tw  from '../Image/tw.png';
+
 
 export default function LoginScreen() {
   const [user, setUser] = useState({
@@ -50,12 +56,14 @@ export default function LoginScreen() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-primary to-secondary">
       {error && <Alert message={error} />}
-
+      <div className="">
+      <img className='' src={Superiorlogin} alt="" />
+    
+      </div>
 
       <form
         onSubmit={handleSubmit}
       >
-        <div class=" text-center block text-gray-700 text-sm font-bold mb-2 ">Ingresar</div>
        
         <div className="mb-4">
           <label
@@ -98,15 +106,18 @@ export default function LoginScreen() {
             Login
           </button>
           </div>
-         
+          <img src={google}
+      onClick={handleGoogleSignin} className="inline-block p-3 rounded-full ">
+      </img>
+      <img src={facebook} className="inline-block p-3 rounded-full"
+    >
+      </img>
+      <img src={tw} className='inline-block p-3 rounded-full'
+    >
+      </img>
        
       </form>
-      <button
-        onClick={handleGoogleSignin}
-        className=" hover:bg-slate-200 text-black  shadow rounded border-2 border-gray-300 py-2 px-4"
-      >
-        Google login
-      </button>
+      
       <div className="flex items-center justify-between">
           <a
             className="text-center font-bold text-sm ext-violetaosc hover:text-violetita"
