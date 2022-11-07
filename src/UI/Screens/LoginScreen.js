@@ -56,8 +56,8 @@ export default function LoginScreen() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-primary to-secondary">
       {error && <Alert message={error} />}
-      <div className="">
-      <img className='' src={Superiorlogin} alt="" />
+      <div className="flex items-center justify-between">
+      <img className='flex items-center justify-between' src={Superiorlogin} alt="" />
     
       </div>
 
