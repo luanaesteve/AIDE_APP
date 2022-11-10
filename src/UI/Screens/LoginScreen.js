@@ -8,6 +8,7 @@ import linea2  from '../Image/linea2.png';
 import google  from '../Image/google.png';
 import facebook  from '../Image/facebook.png';
 import tw  from '../Image/tw.png';
+import Popup from 'reactjs-popup';
 
 
 export default function LoginScreen() {
@@ -16,8 +17,9 @@ export default function LoginScreen() {
     password: "",
   });
   const { login, loginWithGoogle, resetPassword } = useAuth();
-  const [error, setError] = useState("");
   const navigate = useNavigate();
+  
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -41,6 +43,7 @@ export default function LoginScreen() {
       setError(error.message);
     }
   };
+  const [error, setError] = useState();
 
   const handleResetPassword = async (e) => {
     e.preventDefault();
@@ -50,22 +53,29 @@ export default function LoginScreen() {
       setError('Te enviamos un email. Revisa tu buuzon.')
     } catch (error) {
       setError(error.message);
+
     }
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-primary to-secondary">
-      {error && <Alert message={error} />}
-      <div className="">
-      <img src={Frame5} alt="" />
     
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-primary to-secondary ">
+
+
+    <div >
+  
       </div>
 
-      <form
-        onSubmit={handleSubmit}
-      >
+      <form onSubmit={handleSubmit}>
+      {error && <Popup trigger={<button> ERROR</button>} position="center">
+    <div>Popup content here !!</div>
+  </Popup>
+}
        
+
+
         <div className="mb-4">
+        
           <label
             htmlFor="email"
             className="text-violetaosc text-sm font-bold w-full max-w-screen-xl mx-auto px-4"
