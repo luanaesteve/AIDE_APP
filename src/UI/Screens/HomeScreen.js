@@ -13,16 +13,14 @@ export default function HomeScreen() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-300">
-      <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-        <p className="text-xl mb-4">welcome {user.displayName || user.email}</p>
-        <button
-          className=" text-center bg-slate-200 hover:bg-slate-300 rounded py-2 px-4 text-black"
-          onClick={handleLogout}
-        >
-          Cerrar sesion 
-        </button>
+    <div className="min-h-screen grid grid-cols-6">
+      <div className="bg-green-300 col-span-1">
+        {/*Logotipo*/}
+        <div className="text-center p-8">
+          <h1 className="uppercase font-bold tracking-[4px]">TU LOGO</h1>
+          </div>
       </div>
+      <div className="col-span-5">Hola</div>
     </div>
   );
 }
