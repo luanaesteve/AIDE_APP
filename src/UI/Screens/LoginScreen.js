@@ -49,10 +49,6 @@ export default function LoginScreen() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-primary to-secondary">
       {error && <Alert message={error} />}
-      <div className="">
-      <img src={Frame5} alt="" />
-
-      </div>
       <form
         onSubmit={handleSubmit}
       >

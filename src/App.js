@@ -8,11 +8,11 @@ import {AuthProvider} from './UI/Context/AuthContext';
 import { ProtectedRoute } from '../src/UI/Screens/ProtectedRoute'
 
 function App(){
-return(
-  <div className="min-[320px]:text-center max-[600px]:bg-sky-300 bg-slate-500 text-black h-screen flex text-white sm:text-left sm:text-center md:max-xl:flex">
-  <AuthProvider>
-  <Routes>
-    <Route path='/' element={<LoginScreen/>} />
+  return(
+    <div className="">
+    <AuthProvider>
+    <Routes>
+      <Route path='/' element={<LoginScreen/>} />
     <Route path='/register' element={<RegisterScreen/>} />
     <Route path='/home' element={<ProtectedRoute><HomeScreen/></ProtectedRoute>} />
     </Routes>
