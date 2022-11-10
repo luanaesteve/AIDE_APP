@@ -1,10 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./src/**/*.{js,jsx,ts,tsx}",],
   theme: {
-<<<<<<< HEAD
-    extend: {},
-=======
     screens: {
       'tablet': '640px',
       // => @media (min-width: 640px) { ... }
@@ -44,7 +41,6 @@ module.exports = {
       'white': '#FFFFFF'
       }
     },
->>>>>>> 141d74f51c96dfcb7314d3acd2a6debed778fec3
   },
   plugins: [],
 }

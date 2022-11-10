@@ -2,21 +2,20 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../Context/AuthContext";
 import { Alert } from "./Alert";
+import Frame5  from '../Image/Frame5.png';
+import linea1  from '../Image/linea1.png';
+import linea2  from '../Image/linea2.png';
 import google  from '../Image/google.png';
 import facebook  from '../Image/facebook.png';
 import tw  from '../Image/tw.png';
-
-
 export default function LoginScreen() {
   const [user, setUser] = useState({
     email: "",
     password: "",
   });
   const { login, loginWithGoogle, resetPassword } = useAuth();
+  const [error, setError] = useState("");
   const navigate = useNavigate();
-  
-  
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
@@ -27,10 +26,8 @@ export default function LoginScreen() {
       setError(error.message);
     }
   };
-
   const handleChange = ({ target: { value, name } }) =>
     setUser({ ...user, [name]: value });
-
   const handleGoogleSignin = async () => {
     try {
       await loginWithGoogle();
@@ -39,8 +36,6 @@ export default function LoginScreen() {
       setError(error.message);
     }
   };
-  const [error, setError] = useState();
-
   const handleResetPassword = async (e) => {
     e.preventDefault();
     if (!user.email) return setError("Escribi un email para cambiar la contraseña");
@@ -49,22 +44,20 @@ export default function LoginScreen() {
       setError('Te enviamos un email. Revisa tu buuzon.')
     } catch (error) {
       setError(error.message);
-
     }
   };
-
   return (
-
-    <div className="w-full max-w-xs m-auto">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-primary to-secondary">
       {error && <Alert message={error} />}
+      <div className="">
+      <img src={Frame5} alt="" />
 
+      </div>
       <form
         onSubmit={handleSubmit}
-        className="bg-white shadow-md rounded px-10 pt-10 pb-10 mb-1"
       >
-
+       
         <div className="mb-4">
-        
           <label
             htmlFor="email"
             className="text-violetaosc text-sm font-bold w-full max-w-screen-xl mx-auto px-4"
@@ -76,9 +69,7 @@ export default function LoginScreen() {
             name="email"
             id="email"
             onChange={handleChange}
-
             className="shadow appearance-none border rounded text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-center w-full max-w-screen-xl mx-auto px-4 py-2"
-
             placeholder="youremail@company.tld"
           />
         </div>
@@ -98,15 +89,13 @@ export default function LoginScreen() {
             placeholder="*************"
           />
         </div>
-
         <div className="flex items-center justify-between">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="flex items-center justify-center focus:outline-none text-white text-sm sm:text-base bg-violetita hover:bg-violetaosc rounded py-2 w-full transition duration-150 ease-in"
             type="submit"
           >
             Login
           </button>
-
           </div>
           <img src={google}
       onClick={handleGoogleSignin} className="inline-block p-9 rounded-full mx-auto ">
@@ -122,18 +111,17 @@ export default function LoginScreen() {
       
       <div className="flex items-center justify-between w-full max-w-screen-xl">
           <a
-            className="text-center font-bold text-sm ext-violetaosc hover:text-violetita w-full max-w-screen-xl" href="#!"
+            className="text-center font-bold text-sm ext-violetaosc hover:text-violetita w-full max-w-screen-xl"
+            href="#!"
             onClick={handleResetPassword}
           >
             Te olvidaste tu contraseña?
           </a>
           </div>
-      <p className="my-4 text-sm flex justify-between px-3">
-        Ya tiene una cuenta?
-        <Link to="/register" className="ext-center font-bold text-violetaosc hover:text-violetita">
+     
+        <Link to="/register" className= " text-center font-bold text-violetaosc hover:text-violetita ">
           Registrarse
         </Link>
-      </p>
     </div>
   );
 }
