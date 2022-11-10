@@ -19,6 +19,14 @@ export default function HomeScreen() {
         <div className="text-center p-8">
           <h1 className="uppercase font-bold tracking-[4px]">TU LOGO</h1>
           </div>
+        {/* MENU */}
+        <nav>
+          <ul>
+            <li>
+              
+            </li>
+          </ul>
+        </nav>
       </div>
       <div className="col-span-5">Hola</div>
     </div>
