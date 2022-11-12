@@ -44,33 +44,34 @@ export default function LoginScreen() {
     }
   };
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-primary to-secondary">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-violetaosc to-purple-900">
       {error && <Alert message={error} />}
       <form
         onSubmit={handleSubmit}
       >
-       
-        <div className="mb-4">
+          <h1 className="text-4xl font-medium text-center gap-1 flex flex-col md:space-x-8 font-serif text-violetita mt-2 ">Iniciar sesión</h1>
+        <div className="mb-8">
           <label
             htmlFor="email"
-            className="text-violetaosc text-sm font-bold w-full max-w-screen-xl mx-auto px-4"
+            className="text-1x1 font-medium text-gray "
           >
-            Email
+            Correo electronico
           </label>
           <input
             type="email"
             name="email"
             id="email"
             onChange={handleChange}
-            className="shadow appearance-none border rounded text-gray-700 leading-tight focus:outline-none focus:shadow-outline text-center w-full max-w-screen-xl mx-auto px-4 py-2"
-            placeholder="youremail@company.tld"
+           className="w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-none focus:border-violetita"
+          placeholder="Ingresa tu correo electrónico"
           />
         </div>
         <div className="mb-4">
           <label
             htmlFor="password"
-            className="block text-violetaosc w-full max-w-screen-xl mx-auto px-4 font-bold"
+            className="text-1x1 font-medium text-gray "
           >
+    
             Contraseña
           </label>
           <input
@@ -78,8 +79,8 @@ export default function LoginScreen() {
             name="password"
             id="password"
             onChange={handleChange}
-            className="shadow appearance-none border rounded w-full max-w-screen-xl mx-auto px-4 py-2 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            placeholder="*************"
+            className=  "w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-none focus:border-violetita"
+            placeholder="Ingresa tu contraseña"
           />
         </div>
         <div className="flex items-center justify-between">
@@ -102,19 +103,24 @@ export default function LoginScreen() {
        
       </form>
       
-      <div className="flex items-center justify-between w-full max-w-screen-xl">
-          <a
-            className="text-center font-bold text-sm ext-violetaosc hover:text-violetita w-full max-w-screen-xl"
+      <div className="flex flex-col md:flex-row items-center justify-between gap-4 order-2 md:order-1">
+         
+        
+        
+        <span className="text-gray-400">
+          ¿No tienes cuenta?{" "}  
+        <Link to="/register"  href="#" className= "text-gray-400 hover:text-violetita transition-colors ">
+          Registrarse
+        </Link>
+        </span>
+        <a
+            className="text-gray-400 hover:text-violetita transition-colors"
             href="#!"
             onClick={handleResetPassword}
           >
-            Te olvidaste tu contraseña?
+            ¿Te olvidaste tu contraseña?
           </a>
-          </div>
-     
-        <Link to="/register" className= " text-center font-bold text-violetaosc hover:text-violetita ">
-          Registrarse
-        </Link>
+        </div>
     </div>
   );
 }
