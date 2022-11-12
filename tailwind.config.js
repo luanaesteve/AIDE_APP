@@ -38,8 +38,13 @@ module.exports = {
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
       'black': '#000000',
-      'white': '#FFFFFF'
+      'white': '#FFFFFF',
+      primary: {
+        100: "#3A00B0",
+        300: "#29007D",
+        900: "#120037",
       }
+      },
     },
   },
   plugins: [],
