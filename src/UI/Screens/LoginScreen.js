@@ -49,11 +49,14 @@ export default function LoginScreen() {
       <form
         onSubmit={handleSubmit}
       >
-          <h1 className="text-4xl font-medium text-center gap-1 flex flex-col md:space-x-8 font-serif text-violetita mt-2 ">Iniciar sesión</h1>
-        <div className="mb-8">
+         <div className="mb-6">
+         <h1 className="text-4xl font-medium text-center gap-1 flex flex-col font-serif text-violetita ">Iniciar sesión</h1>
+         </div>
+        <div className="mb-4">
+        
           <label
             htmlFor="email"
-            className="text-1x1 font-medium text-gray "
+            className="font-medium text-zinc-300 "
           >
             Correo electronico
           </label>
@@ -62,14 +65,14 @@ export default function LoginScreen() {
             name="email"
             id="email"
             onChange={handleChange}
-           className="w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-none border-violetita"
+           className="w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-none border-violetita hover:border-white"
           placeholder="Ingresa tu correo electrónico"
           />
         </div>
         <div className="mb-4">
           <label
             htmlFor="password"
-            className="text-1x1 font-medium text-gray "
+            className="font-medium text-zinc-300 "
           >
     
             Contraseña
@@ -79,7 +82,7 @@ export default function LoginScreen() {
             name="password"
             id="password"
             onChange={handleChange}
-            className=  "w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-noneborder-violetita"
+            className=  "w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-none border-violetita hover:border-white"
             placeholder="Ingresa tu contraseña"
           />
         </div>
