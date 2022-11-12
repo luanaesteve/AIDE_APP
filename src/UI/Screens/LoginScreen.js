@@ -62,7 +62,7 @@ export default function LoginScreen() {
             name="email"
             id="email"
             onChange={handleChange}
-           className="w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-none focus:border-violetita"
+           className="w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-none border-violetita"
           placeholder="Ingresa tu correo electrónico"
           />
         </div>
@@ -79,7 +79,7 @@ export default function LoginScreen() {
             name="password"
             id="password"
             onChange={handleChange}
-            className=  "w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-none focus:border-violetita"
+            className=  "w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-noneborder-violetita"
             placeholder="Ingresa tu contraseña"
           />
         </div>
