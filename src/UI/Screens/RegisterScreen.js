@@ -30,53 +30,62 @@ export default function RegisterScreen() {
   };
 
   return (
-    <div className="w-full max-w-xs m-auto text-black">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-violetaosc to-purple-900">
       {error && <Alert message={error} />}
 
-      <form
+      <form className="bg-white rounded-lg p-8 mb-s"
         onSubmit={handleSubmit}
-        className="bg-white shadow-md rounded px-8 pt-6 pb-6 mb-4"
       >
+         <div className="mb-6">
+         <h1 className="text-4xl font-medium text-center gap-1 flex flex-col font-serif text-violetita ">Registro</h1>
+         </div>
         <div className="mb-4">
           <label
             htmlFor="email"
-            className="block text-gray-700 text-sm font-bold mb-2"
+            className="font-medium text-zinc-300"
           >
-            Email
+            Correo Electronico
           </label>
           <input
             type="email"
             onChange={(e) => setUser({ ...user, email: e.target.value })}
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            placeholder="youremail@company.tld"
+            className="w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-none border-violetita hover:border-white"
+            placeholder="Ingresa tu correo electrónico"
           />
         </div>
 
         <div className="mb-4">
           <label
             htmlFor="password"
-            className="block text-gray-700 text-sm font-bold mb-2"
+            className="font-medium text-zinc-300"
           >
             Contraseña
           </label>
           <input
             type="password"
             onChange={(e) => setUser({ ...user, password: e.target.value })}
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-            placeholder="*************"
+            className=  "w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-none border-violetita hover:border-white "
+            placeholder="Ingresa tu contraseña"
           />
-        </div>
-
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+     </div>
+        <div className="flex items-center justify-between">
+        <button className="bg-violetaosc text-white w-full py-3 px-4 mb-4 rounded-full hover:bg-purple-800 transition-colors">
           Registrarse
         </button>
-      </form>
-      <p className="my-4 text-sm flex justify-between px-3">
+        </div>
+        
+<div className="flex flex-col md:flex-row items-center justify-between gap-2 ">
+      
+        <p className="text-zinc-300 ">
         Ya tiene una cuenta?
-        <Link to="/" className="text-700 hover:text-blue-900">
+        </p>
+        <Link to="/" className="text-zinc-300 hover:text-purple-500 transition-colors">
           Loguearse
         </Link>
-      </p>
+     
+      </div>
+      </form>
+     
     </div>
   );
 }
