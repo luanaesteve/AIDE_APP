@@ -32,6 +32,7 @@ module.exports = {
         'violetaosc':'#230631',
         'blue': '#1fb6ff',
         'naranjita':'#CC5333',
+        'violet':'#472E6C',
       'pink': '#ff49db',
       'orange': '#ff7849',
       'green': '#13ce66',
