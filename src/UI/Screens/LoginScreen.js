@@ -82,7 +82,7 @@ export default function LoginScreen() {
             name="password"
             id="password"
             onChange={handleChange}
-            className=  "w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-none border-violetita hover:border-white placeholder-slate-400"
+            className=  "w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-none border-violetita hover:border-white "
             placeholder="Ingresa tu contraseña"
           />
         </div>
@@ -94,6 +94,7 @@ export default function LoginScreen() {
             Iniciar sesión
           </button>
           </div>
+  
           <img src={google}
       onClick={handleGoogleSignin} className="inline-block p-9 rounded-full mx-auto fill-blue-500 ">
       </img>
