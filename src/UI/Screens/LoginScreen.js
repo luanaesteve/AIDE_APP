@@ -45,7 +45,7 @@ export default function LoginScreen() {
   };
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-violetaosc to-purple-900">
-      {error && <Alert message={error} />}
+      {error && <span message={error} />}
       <form
         onSubmit={handleSubmit}
       >
@@ -82,20 +82,20 @@ export default function LoginScreen() {
             name="password"
             id="password"
             onChange={handleChange}
-            className=  "w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-none border-violetita hover:border-white"
+            className=  "w-full py-2 px-4 bg-transparent border rounded-full mt-2 outline-none border-violetita hover:border-white placeholder-slate-400"
             placeholder="Ingresa tu contraseña"
           />
         </div>
         <div className="flex items-center justify-between">
           <button
-            className="flex items-center justify-center focus:outline-none text-white text-sm sm:text-base bg-violetita hover:bg-violetaosc rounded py-2 w-full transition duration-150 ease-in"
+            className="bg-violetaosc text-white w-full py-3 px-4 rounded-full hover:bg-purple-800 transition-colors"
             type="submit"
           >
-            Login
+            Iniciar sesión
           </button>
           </div>
           <img src={google}
-      onClick={handleGoogleSignin} className="inline-block p-9 rounded-full mx-auto ">
+      onClick={handleGoogleSignin} className="inline-block p-9 rounded-full mx-auto fill-blue-500 ">
       </img>
       <img src={facebook} className="inline-block p-9 rounded-full mx-auto"
     >
@@ -106,18 +106,17 @@ export default function LoginScreen() {
        
       </form>
       
-      <div className="flex flex-col md:flex-row items-center justify-between gap-4 order-2 md:order-1">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-4 ">
          
         
-        
-        <span className="text-gray-400">
+        <span className="text-zinc-300">
           ¿No tienes cuenta?{" "}  
-        <Link to="/register"  href="#" className= "text-gray-400 hover:text-violetita transition-colors ">
+        <Link to="/register"  href="#" className= "text-violetita hover:text-purple-500 transition-colors ">
           Registrarse
         </Link>
         </span>
         <a
-            className="text-gray-400 hover:text-violetita transition-colors"
+            className="text-zinc-300 hover:text-purple-500 transition-colors"
             href="#!"
             onClick={handleResetPassword}
           >
