@@ -95,14 +95,14 @@ export default function LoginScreen() {
             Iniciar sesión
           </button>
           </div>
-  <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+  <div className="flex flex-col md:flex-row  items-center justify-between gap-2">
           <img src={google}
-      onClick={handleGoogleSignin} className="inline-block p-4 rounded-full mx-auto fill-blue-500 ">
+      onClick={handleGoogleSignin} className="static p-4 rounded-full mx-auto ">
       </img>
-      <img src={facebook} className="inline-block p-4 rounded-full mx-auto"
+      <img src={facebook} className="static p-4  mx-auto"
     >
       </img>
-      <img src={tw} className='inline-block p-4 rounded-full mx-auto'
+      <img src={tw} className='static p-4 mx-auto'
     >
       </img>
       </div>
