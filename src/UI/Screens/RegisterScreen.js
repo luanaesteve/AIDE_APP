@@ -30,10 +30,10 @@ export default function RegisterScreen() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-violetaosc to-purple-900">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-violet to-naranjita">
       {error && <Alert message={error} />}
 
-      <form className="bg-white rounded-lg p-8 mb-s"
+      <form className="bg-violetaosc rounded-lg p-10 mb-s"
         onSubmit={handleSubmit}
       >
          <div className="mb-6">
@@ -69,7 +69,7 @@ export default function RegisterScreen() {
           />
      </div>
         <div className="flex items-center justify-between">
-        <button className="bg-violetaosc text-white w-full py-3 px-4 mb-4 rounded-full hover:bg-purple-800 transition-colors">
+        <button className="bg-purple-800 text-white w-full py-3 px-4 rounded-full hover:bg-purple-900 transition-colors">
           Registrarse
         </button>
         </div>
