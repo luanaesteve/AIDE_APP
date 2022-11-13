@@ -30,7 +30,7 @@ export default function RegisterScreen() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-violet to-naranjita">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-violet to-violetita">
       {error && <Alert message={error} />}
 
       <form className="bg-violetaosc rounded-lg p-10 mb-s"
