@@ -10,8 +10,8 @@ export default function Especialidad() {
     <main className="lg:col-span-3 xl:col-span-5 bg-gray-100 p-10 h-[100vh] overflow-y-scroll ">
       <Header />
 {/* SECCION 1*/}
-<section className="grid grid-cols-1  mt-10 gap-8">
-<div className="bg-white p-4 rounded-lg shadow hover:shadow-xl transition-all w-full md:w-1/2">
+<section className="mt-10 gap-10 items-center">
+<div className="bg-white rounded-lg shadow hover:shadow-xl transition-all w-full md:w-1/2 justify-center">
   <div>
     <img 
       src="https://www.ucreativa.com/wp-content/uploads/04.-Certificaci%C3%B3n-T%C3%A9cnica-en-Desarrollo-Web-Front-End-con-React.jpg" 
@@ -40,7 +40,7 @@ export default function Especialidad() {
           alt="Yared Jacquez Trillo"
         />
         <div>
-          <span>Yared Jacquez Trillo</span>
+          <span>Yared Jacquez Trillo o</span>
         </div>
       </div>
       <div>
