@@ -45,25 +45,25 @@ const Sidebar = () => {
               href="#"
               className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-primary-900/50 transition-colors"
             >
-              <RiHome3Line /> Home
+              <RiHome3Line /> Inicio
             </a>
             <a
               href="#"
               className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-primary-900/50 transition-colors"
             >
-              <RiFileCopyLine /> Projects
+              <RiTodoFill /> Noticias
             </a>
             <a
               href="#"
               className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-primary-900/50 transition-colors"
             >
-              <RiWalletLine /> Invoices
+              <RiCalendarCheckFill /> Calendario
             </a>
             <a
               href="#"
               className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-primary-900/50 transition-colors"
             >
-              <RiPieChartLine /> Reports
+              <RiFingerprintFill /> Ajustes
             </a>
           </nav>
           <div className="bg-primary-900/50 text-white p-4 rounded-xl">
