@@ -42,59 +42,26 @@ export default function HomeScreen() {
         </g>
       </svg>
     </div>
-    <p className="my-4 text-gray-500">
+    <p className="my-4 text-gray-500 text-center ">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
       quibusdam ducimus libero ad tempora doloribus expedita laborum
       saepe voluptas perferendis delectus assumenda rerum, culpa aperiam
       dolorum, obcaecati corrupti aspernatur a.
     </p>
     <div className="mb-8">
-      <h4 className="text-lg text-indigo-500 font-bold">
-        Luana Selena Esteve
+      <h4 className="text-lg text-indigo-500 font-bold text-center">
+       Crecemos con vos
       </h4>
-      <p>
-        <span className="font-medium">Gerente</span> en{" "}
-        <span className="font-medium">AIDE CORP.</span>
+      <p className="text-center">
+        <span className="font-medium ">EPET 20</span> en{" "}
+        <span className="font-medium ">Direccion general</span>
       </p>
-    </div>
-    <div className="flex items-center gap-4">
-      <button className="border border-indigo-500 p-2 rounded-xl hover:bg-indigo-500 group transition-colors">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-6 h-6 text-indigo-500 group-hover:text-white"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
-          />
-        </svg>
-      </button>
-      <button className="border border-indigo-500 p-2 rounded-xl hover:bg-indigo-500 group transition-colors">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-6 h-6 text-indigo-500 group-hover:text-white"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
-          />
-        </svg>
-      </button>
     </div>
   </div>
 </div>
       </section>
       <h1 className="text-2xl font-bold mb-8 text-center">Creadoras:</h1>
+
       {/* Section 2 */}
       <section className="grid grid-cols-1 md:grid-cols-2 mt-10 gap-8">
         
@@ -114,12 +81,12 @@ export default function HomeScreen() {
                 </div>
               </div>
               <div>
-              <span className="bg-red-100 text-red-800 py-1 px-3 rounded-full font-medium">
+              <span className="bg-primary-100/10 text-black py-1 px-3 rounded-full font-medium">
                   Gana
                 </span>
               </div>
               <div>
-                <span className="font-bold">&euro; 1,200.87</span>
+                <span className="font-bold ">&euro; 50,000.07</span>
               </div>
             </div>
             {/* Card 2 */}
@@ -135,7 +102,7 @@ export default function HomeScreen() {
                 </div>
               </div>
               <div>
-                <span className="bg-red-100 text-red-800 py-1 px-3 rounded-full font-medium">
+                <span className="bg-primary-100/10 text-black py-1 px-3 rounded-full font-medium">
                   Gana
                 </span>
               </div>
@@ -157,7 +124,7 @@ export default function HomeScreen() {
                 </div>
               </div>
               <div>
-              <span className="bg-red-100 text-red-800 py-1 px-3 rounded-full font-medium">
+              <span className="bg-primary-100/10 text-black py-1 px-3 rounded-full font-medium">
                   Gana
                 </span>
               </div>
@@ -170,15 +137,12 @@ export default function HomeScreen() {
 
 
 
-          <div className="bg-primary-900 text-gray-300 p-8 rounded-xl shadow-2xl flex items-center justify-between flex-wrap xl:flex-nowrap gap-8">
+          <div className="bg-violetaosc text-gray-300 p-8 rounded-xl shadow-2xl flex items-center justify-between  gap-8">
             <div>
-              <RiHashtag className="text-4xl -rotate-12" />
-            </div>
-            <div>
-              <h5 className="font-bold text-white">Excelencia</h5>
+              <h5 className="font-bold text-white ">Excelencia empresarial</h5>
             </div>
             <div className="w-full xl:w-auto">
-              <button className="bg-primary-100 py-2 px-6 rounded-xl text-white w-full">
+              <button className="bg-purple-500 py-2 px-6 rounded-xl text-white w-full">
               APROBAR
               </button>
             </div>
@@ -198,7 +162,7 @@ export default function HomeScreen() {
                 </div>
               </div>
               <div>
-                <span className="bg-primary-100 py-2 px-4 rounded-full text-white">
+                <span className="bg-violetaosc py-2 px-4 rounded-full text-white">
                   Profesor
                 </span>
               </div>
@@ -215,7 +179,7 @@ export default function HomeScreen() {
               <div>
                 <sup className="text-sm text-gray-500">&euro;</sup>{" "}
                 <span className="text-2xl font-bold mr-2">8,700</span>
-                <span className="text-sm text-gray-500">/ month</span>
+                <span className="text-sm text-gray-500">/ mes</span>
               </div>
               <div>
               
