@@ -11,7 +11,7 @@ export default function Especialidad() {
       <Header />
 {/* SECCION 1*/}
 <section className="mt-10 gap-10 items-center">
-<div className="bg-white rounded-lg shadow hover:shadow-xl transition-all w-full md:w-1/2 justify-center">
+<div className="bg-white rounded-lg shadow hover:shadow-xl transition-all w-full md:w-1/2 md:object-center justify-center">
   <div>
     <img 
       src="https://www.ucreativa.com/wp-content/uploads/04.-Certificaci%C3%B3n-T%C3%A9cnica-en-Desarrollo-Web-Front-End-con-React.jpg" 
