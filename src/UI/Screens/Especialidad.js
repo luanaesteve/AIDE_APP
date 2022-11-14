@@ -40,7 +40,7 @@ export default function Especialidad() {
           alt="Yared Jacquez Trillo"
         />
         <div>
-          <span>Yared Jacquez Trillo</span>
+          <span>Yared Jacquez Trillo o</span>
         </div>
       </div>
       <div>
