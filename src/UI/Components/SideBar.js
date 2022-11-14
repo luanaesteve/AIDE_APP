@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../Image/logo.png";
 import { useAuth } from "../Context/AuthContext";
+import { Link } from "react-router-dom";
 // Icons
 import {
   RiHome3Line,
@@ -51,7 +52,9 @@ const Sidebar = () => {
               href="#"
               className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-primary-900/50 transition-colors"
             >
-              <RiTodoFill /> Noticias
+              <RiTodoFill /> <Link to="/especialidad">
+          Especialidad
+        </Link>
             </a>
             <a
               href="#"

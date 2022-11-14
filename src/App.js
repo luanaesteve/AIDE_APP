@@ -5,7 +5,9 @@ import LoginScreen from '../src/UI/Screens/LoginScreen';
 import RegisterScreen from '../src/UI/Screens/RegisterScreen';
 import HomeScreen from '../src/UI/Screens/HomeScreen';
 import {AuthProvider} from './UI/Context/AuthContext';
-import { ProtectedRoute } from '../src/UI/Screens/ProtectedRoute'
+import { ProtectedRoute } from '../src/UI/Screens/ProtectedRoute';
+import Especialidad from "./UI/Screens/Especialidad";
+
 
 function App(){
   return(
@@ -15,6 +17,9 @@ function App(){
       <Route path='/' element={<LoginScreen/>} />
     <Route path='/register' element={<RegisterScreen/>} />
     <Route path='/home' element={<ProtectedRoute><HomeScreen/></ProtectedRoute>} />
+    <Route path="/especialidad" element={<ProtectedRoute><Especialidad/></ProtectedRoute>} />
+
+
     </Routes>
     </AuthProvider>
     </div>
