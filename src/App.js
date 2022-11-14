@@ -18,6 +18,8 @@ function App(){
     <Route path='/register' element={<RegisterScreen/>} />
     <Route path='/home' element={<ProtectedRoute><HomeScreen/></ProtectedRoute>} />
     <Route path='/especialidad' element={<ProtectedRoute><Especialidad/></ProtectedRoute>} />
+    <Route path='/calendario' element={<ProtectedRoute></>Calendario</ProtectedRoute>} />
+    <Route path='/asesoria' element={<ProtectedRoute></>Asesoria</ProtectedRoute>} />
 
 
     </Routes>
