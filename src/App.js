@@ -17,7 +17,7 @@ function App(){
       <Route path='/' element={<LoginScreen/>} />
     <Route path='/register' element={<RegisterScreen/>} />
     <Route path='/home' element={<ProtectedRoute><HomeScreen/></ProtectedRoute>} />
-    <Route path="/especialidad" element={<ProtectedRoute><Especialidad/></ProtectedRoute>} />
+    <Route path='/especialidad' element={<ProtectedRoute><Especialidad/></ProtectedRoute>} />
 
 
     </Routes>
