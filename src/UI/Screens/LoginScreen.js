@@ -89,7 +89,7 @@ export default function LoginScreen() {
         </div>
         <div className="flex items-center justify-between">
           <button
-            className="bg-purple-800 text-white w-full py-3 px-4 rounded-full hover:bg-purple-900 transition-colors"
+            className="bg-purple-800 text-white w-full py-3 px-4 rounded-full hover:bg-purple-500 transition-colors"
             type="submit"
           >
             Iniciar sesión
@@ -119,7 +119,7 @@ export default function LoginScreen() {
         </Link>
         </span>
         <a
-            className="text-zinc-300 hover:text-purple-500 transition-colors"
+            className="text-zinc-300 hover:text-violetita transition-colors"
             href="#!"
             onClick={handleResetPassword}
           >
