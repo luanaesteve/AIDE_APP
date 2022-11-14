@@ -109,8 +109,8 @@ export default function HomeScreen() {
                   className="w-14 h-14 object-cover rounded-xl"
                 />
                 <div>
-                  <h3 className="font-bold">Abigail Salcedo</h3>
-                  <p className="text-gray-500 text-center ">No se baña PROFESIONAL</p>
+                  <h3 className="font-bold">Luana Esteve</h3>
+                  <p className="text-gray-500 text-center ">Tecnica graduada en hierbas naturales</p>
                 </div>
               </div>
               <div>
@@ -143,7 +143,33 @@ export default function HomeScreen() {
                 <span className="font-bold">&euro; 12,998.88</span>
               </div>
             </div>
-          </div>
+          
+          {/*CARD 3 */}
+          <div className="grid grid-cols-1 xl:grid-cols-4 items-center gap-4 mb-4">
+              <div className="col-span-2 flex items-center gap-4">
+                <img
+                  src="https://img.freepik.com/foto-gratis/hombre-joven-hermoso-contento-camiseta-azul-que-senala-lado_1262-17845.jpg"
+                  className="w-14 h-14 object-cover rounded-xl"
+                />
+                <div>
+                  <h3 className="font-bold">Abigail Salcedo</h3>
+                  <p className="text-gray-500 text-center ">No se baña PROFESIONAL</p>
+                </div>
+              </div>
+              <div>
+              <span className="bg-red-100 text-red-800 py-1 px-3 rounded-full font-medium">
+                  Gana
+                </span>
+              </div>
+              <div>
+                <span className="font-bold">&euro; 1,200.87</span>
+              </div>
+            </div>
+            </div>
+            {/*Separador 2 */}
+
+
+
           <div className="bg-primary-900 text-gray-300 p-8 rounded-xl shadow-2xl flex items-center justify-between flex-wrap xl:flex-nowrap gap-8">
             <div>
               <RiHashtag className="text-4xl -rotate-12" />
@@ -167,13 +193,13 @@ export default function HomeScreen() {
                   className="w-14 h-14 object-cover rounded-full"
                 />
                 <div>
-                  <h3 className="font-bold">Luana Esteve</h3>
+                  <h3 className="font-bold">Exequiel Wiedermann</h3>
                   <p className="text-gray-500">Se come los mocos</p>
                 </div>
               </div>
               <div>
                 <span className="bg-primary-100 py-2 px-4 rounded-full text-white">
-                  Diseñadora
+                  Profesor
                 </span>
               </div>
             </div>
