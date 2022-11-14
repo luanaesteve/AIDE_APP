@@ -4,9 +4,9 @@ import { useAuth } from "../Context/AuthContext";
 // Icons
 import {
   RiHome3Line,
-  RiFileCopyLine,
-  RiWalletLine,
-  RiPieChartLine,
+  RiTodoFill,
+  RiCalendarCheckFill,
+  RiFingerprintFill,
   RiMore2Fill,
   RiCloseFill,
 } from "react-icons/ri";
@@ -65,6 +65,7 @@ const Sidebar = () => {
             >
               <RiFingerprintFill /> Ajustes
             </a>
+        
           </nav>
           <div className="bg-primary-900/50 text-white p-4 rounded-xl">
           <a href="#" className=" text-center"
