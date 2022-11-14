@@ -76,8 +76,8 @@ const Sidebar = () => {
             </a>
         
           </nav>
-          <div className="bg-purple-800 text-white p-4 rounded-xl">
-          <a className="px-2 text-center"
+          <div className="bg-purple-800 text-white p-4 rounded-xl ">
+          <a className="px-2 text-center s:px-18 s:p-18"
           onClick={handleLogout}
         >
         Cerrar sesion 
