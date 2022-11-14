@@ -14,6 +14,15 @@ export default function Navbar(){
             <li>
                 <NavLink to='/Register'>Register</NavLink>
             </li>
+            <li>
+            <NavLink to='/Invoice'>Invoice</NavLink>
+            </li>
+            <li>
+                <NavLink to='/Projects'>Projects</NavLink>
+            </li>
+            <li>
+                <NavLink to='/Reports'>Reports</NavLink>
+            </li>
           </ul>
         </div>
     )
