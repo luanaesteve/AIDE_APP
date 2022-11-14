@@ -69,7 +69,7 @@ export default function RegisterScreen() {
           />
      </div>
         <div className="flex items-center justify-between">
-        <button className="bg-purple-800 text-white w-full py-3 px-4 rounded-full hover:bg-purple-900 transition-colors">
+        <button className="bg-purple-800 text-white w-full py-3 px-4 rounded-full hover:bg-purple-500 transition-colors">
           Registrarse
         </button>
         </div>
