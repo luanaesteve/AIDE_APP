@@ -71,10 +71,10 @@ const Sidebar = () => {
         
           </nav>
           <div className="bg-primary-900/50 text-white p-4 rounded-xl">
-          <a href="#" className=" px- text-center"
+          <a className="px-2 text-center"
           onClick={handleLogout}
         >
-          Cerrar sesion 
+        Cerrar sesion 
         </a>
 
 
