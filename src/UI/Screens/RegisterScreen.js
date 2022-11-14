@@ -22,7 +22,7 @@ export default function RegisterScreen() {
       navigate("/");
     } catch (error) {
         console.log(error.code);
-        if (error.code === "auth/internal-error"){
+        if (error.code === "Error - intente nuevamente"){
             setError('Correo invalido')
         }
       setError(error.message);
@@ -30,10 +30,10 @@ export default function RegisterScreen() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-violet to-violetita">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-violetaosc">
       {error && <Alert message={error} />}
 
-      <form className="bg-violetaosc rounded-lg p-10 mb-s"
+      <form
         onSubmit={handleSubmit}
       >
          <div className="mb-6">
@@ -77,9 +77,9 @@ export default function RegisterScreen() {
 <div className="flex flex-col md:flex-row items-center justify-between gap-2 ">
       
         <p className="text-zinc-300 ">
-        Ya tiene una cuenta?
+        ¿Ya tienes una cuenta?
         </p>
-        <Link to="/" className="text-zinc-300 hover:text-purple-500 transition-colors">
+        <Link to="/" className="text-violetita hover:text-purple-500 transition-colors">
           Loguearse
         </Link>
      
