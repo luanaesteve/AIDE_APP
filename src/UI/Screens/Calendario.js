@@ -1,4 +1,6 @@
-import React from "react"
+import React from "react";
+import Sidebar from "../Components/SideBar";
+import Header from "../Components/Header";
 
 export default function Calendario() {
     return (
@@ -10,4 +12,4 @@ export default function Calendario() {
     </main>
     </div>
     )
-       }
+    }

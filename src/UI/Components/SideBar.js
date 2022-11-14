@@ -40,17 +40,19 @@ const Sidebar = () => {
           <h1 className="text-l text-white font-bold">Asesoria Epet 20</h1>
         </div>
         {/* Nav */}
-        <div className="bg-purple-900 p-8 rounded-tr-[100px] h-[70vh] overflow-y-scroll flex flex-col justify-between gap-8">
+        <div className="bg-violet-900 p-8 rounded-tr-[100px] h-[70vh]  flex flex-col justify-between gap-8">
           <nav className="flex flex-col gap-8">
             <a
               href="#"
-              className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-purple-800 transition-colors"
+              className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-primary-900/50 transition-colors"
             >
-              <RiHome3Line /> Inicio
+              <RiHome3Line />  <Link to="/home">
+          Inicio
+        </Link>
             </a>
             <a
               href="#"
-              className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-purple-800 transition-colors"
+              className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-primary-900/50 transition-colors"
             >
               <RiTodoFill /> <Link to="/especialidad">
           Especialidad
@@ -58,23 +60,27 @@ const Sidebar = () => {
             </a>
             <a
               href="#"
-              className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-purple-800 transition-colors"
+              className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-primary-900/50 transition-colors"
             >
-              <RiCalendarCheckFill /> Calendario
+              <RiCalendarCheckFill /><Link to="/calendario">
+          Calendario
+        </Link>
             </a>
             <a
               href="#"
-              className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-purple-800 transition-colors"
+              className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-primary-900/50 transition-colors"
             >
-              <RiFingerprintFill /> Ajustes
+              <RiFingerprintFill /> <Link to="/asesoria">
+          Asesoria
+        </Link>
             </a>
         
           </nav>
           <div className="bg-primary-900/50 text-white p-4 rounded-xl">
-          <a className="px-2 text-center"
+          <a href="#" className=" text-center"
           onClick={handleLogout}
         >
-        Cerrar sesion 
+          Cerrar sesion 
         </a>
 
 

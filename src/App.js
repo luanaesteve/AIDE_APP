@@ -7,6 +7,8 @@ import HomeScreen from '../src/UI/Screens/HomeScreen';
 import {AuthProvider} from './UI/Context/AuthContext';
 import { ProtectedRoute } from '../src/UI/Screens/ProtectedRoute';
 import Especialidad from "./UI/Screens/Especialidad";
+import Calendario from "./UI/Screens/Calendario";
+import Asesoria from "./UI/Screens/Asesoria";
 
 
 function App(){
@@ -18,9 +20,10 @@ function App(){
     <Route path='/register' element={<RegisterScreen/>} />
     <Route path='/home' element={<ProtectedRoute><HomeScreen/></ProtectedRoute>} />
     <Route path='/especialidad' element={<ProtectedRoute><Especialidad/></ProtectedRoute>} />
-    <Route path='/calendario' element={<ProtectedRoute></>Calendario</ProtectedRoute>} />
-    <Route path='/asesoria' element={<ProtectedRoute></>Asesoria</ProtectedRoute>} />
+    <Route path='/calendario' element={<ProtectedRoute><Calendario/></ProtectedRoute>} />
+    <Route path='/asesoria' element={<ProtectedRoute><Asesoria/></ProtectedRoute>} />
 
+   
 
     </Routes>
     </AuthProvider>
