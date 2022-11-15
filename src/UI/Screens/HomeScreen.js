@@ -1,5 +1,5 @@
 import { useAuth } from "../Context/AuthContext";
-import { RiLineChartLine, RiHashtag } from "react-icons/ri";
+import { RiMoonClearFill } from "react-icons/ri";
 import Header from "../Components/Header";
 import Sidebar from "../Components/SideBar";
 
@@ -75,16 +75,17 @@ export default function HomeScreen() {
                 />
                 <div>
                   <h3 className="font-bold">Luana Esteve</h3>
-                  <p className="text-gray-500 text-center  ">6to 1era - Tecnica programadora</p>
+                  <p className="text-gray-500 text-center  ">6to 1era </p>
                 </div>
               </div>
               <div>
               <span className="bg-primary-100/10 text-black py-1 px-3 rounded-full font-medium">
-                  Gana
+                  Tec. Prog
                 </span>
               </div>
               <div>
-                <span className="font-bold ">&euro; 50,000.07</span>
+                <span className="font-bold ">19 años
+                </span>
               </div>
             </div>
             {/* Card 2 */}
@@ -96,16 +97,16 @@ export default function HomeScreen() {
                 />
                 <div>
                   <h3 className="font-bold">Nicole Aramayo</h3>
-                  <p className="text-gray-500 text-center">6to 1era - Tecnica programadora</p>
+                  <p className="text-gray-500 text-center"></p>
                 </div>
               </div>
               <div>
                 <span className="bg-primary-100/10 text-black py-1 px-3 rounded-full font-medium">
-                  Gana
+                  Tec. prog
                 </span>
               </div>
               <div>
-                <span className="font-bold">&euro; 12,998.88</span>
+                <span className="font-bold"> 20 años</span>
               </div>
             </div>
           
@@ -118,16 +119,16 @@ export default function HomeScreen() {
                 />
                 <div>
                   <h3 className="font-bold">Abigail Salcedo</h3>
-                  <p className="text-gray-500 text-center ">6to 1era - Tecnica programadora</p>
+                  <p className="text-gray-500 text-center ">6to 1era</p>
                 </div>
               </div>
               <div>
               <span className="bg-primary-100/10 text-black py-1 px-3 rounded-full font-medium">
-                  Gana
+                  Tec. prog
                 </span>
               </div>
               <div>
-                <span className="font-bold">&euro; 1,200.87</span>
+                <span className="font-bold"> 18 años</span>
               </div>
             </div>
             </div>
