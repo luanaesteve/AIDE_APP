@@ -1,15 +1,20 @@
-import { useState } from "react";
+import { useState, React } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../Context/AuthContext";
 import { Alert } from "./Alert";
 
 export default function RegisterScreen() {
+
+  
+
   const { signup } = useAuth();
 
-  const [user, setUser] = useState({
+  const [user, setUser, ] = useState({
     email: "",
     password: "",
+    
   });
+
 
   const [error, setError] = useState("");
   const navigate = useNavigate();

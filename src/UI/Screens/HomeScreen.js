@@ -25,14 +25,14 @@ export default function HomeScreen() {
   </div>
 
   <div>
-    <div className="flex items-center gap-4">
+    <div className="flex items-center gap-4 justify-center">
       <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-5xl text-indigo-500" height="2em" width="1em" xmlns="http://www.w3.org/2000/svg">
         <g>
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"></path>
             </g>
       </svg>
-      <h2 className="text-2xl font-bold text-gray-900">
+      <h2 className="text-2xl text-center font-bold text-gray-900">
         Sobre nosotros
       </h2>
       <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-5xl text-indigo-500" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +47,7 @@ export default function HomeScreen() {
     En nuestro establecimiento poseemos diferentes aulas y talleres especializados en la orientación académica y además de recreativos, tales sean como, sala multimedia, talleres de ciclo básico y superior, biblioteca, S.U.M, aulas teóricas, asesoría, preceptoría, oficina técnica, cocina y kiosko.
     </p>
     <div className="mb-8">
-      <h4 className="text-lg text-indigo-500 font-bold text-center">
+      <h4 className="text-lg text-purple-600 font-bold text-center">
        Crecemos con vos
       </h4>
       <p className="text-center">
