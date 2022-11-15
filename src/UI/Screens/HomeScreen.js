@@ -157,7 +157,7 @@ export default function HomeScreen() {
                 />
                 <div>
                   <h3 className="font-bold">Exequiel Wiedermann</h3>
-                  <p className="text-gray-500">Se come los mocos</p>
+                  <p className="text-gray-500">React-or</p>
                 </div>
               </div>
               <div>
@@ -171,13 +171,13 @@ export default function HomeScreen() {
 
               </h5>
               <p className="text-gray-500">
-                Clara necesidad de un mate.
+                Falta programacion, no hizo commits. 
               </p>
             </div>
             <div className="bg-primary-100/10 flex flex-col md:flex-row items-center justify-between gap-4 py-8 px-4 rounded-lg">
               <div>
                 <sup className="text-sm text-gray-500">&euro;</sup>{" "}
-                <span className="text-2xl font-bold mr-2">8,700</span>
+                <span className="text-2xl font-bold mr-2">500.000</span>
                 <span className="text-sm text-gray-500">/ mes</span>
               </div>
               <div>
