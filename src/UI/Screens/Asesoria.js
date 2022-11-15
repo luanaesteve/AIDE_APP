@@ -84,7 +84,7 @@ export default function Asesoria() {
   <div className="border rounded-lg bg-violetaosc">
     <div className="flex flex-col lg:flex-row items-center lg:items-start gap-6 p-8">
       <img
-        src="https://img.freepik.com/foto-gratis/feliz-chico-amable-gafas-saludando-hola_74855-3484.jpg?w=1380&t=st=1660708424~exp=1660709024~hmac=74ca1cab6ce765dfa11c1901e1214ed5e55f614d4c5f14f8477ed54c8d4f7d57"
+        src="https://img.freepik.com/fotos-premium/sonriente-mujer-atractiva-morena-maquillaje-clasico-vestido-chaqueta-mira-camara-sienta_616370-3571.jpg?w=2000"
         alt="JT Devs"
         lazyload="true"
         className="rounded-full w-24 h-24 object-cover ring-4 ring-violetita"
