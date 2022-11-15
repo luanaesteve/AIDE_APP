@@ -14,7 +14,7 @@ export default function Especialidad() {
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 p-10 pb-8 rounded-xl bg-violetaosc">
   <div>
     <img 
-      src="https://img.freepik.com/foto-gratis/programador-sonriente-tiro-medio-sosteniendo-telefono_23-2149101155.jpg?w=2000&t=st=1660331259~exp=1660331859~hmac=4a6b4885e8141e344e237674190db60aa4431782337bc5df8a22e9d895ebdd6f" 
+      src="https://www.pragma.com.co/hs-fs/hubfs/h_react.jpg?width=792&name=h_react.jpg" 
       className="w-full md:w-[500px] h-full md:h-[300px] object-cover rounded-lg" 
       alt="" 
     />
@@ -34,10 +34,7 @@ export default function Especialidad() {
     </p>
     <div className="mt-4 flex items-center justify-between">
       <div className="flex items-center gap-4">
-        <img 
-          src="https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg?w=2000&t=st=1660333883~exp=1660334483~hmac=70d21d08617e34074243187ec59df8fd4b564c084f33609c6db242de4e40fc01"
-          className="w-[40px] h-[40px] object-cover rounded-full"
-        />
+       
         <div className="text-white">
           <span>Yared Jacquez Trillo</span>
         </div>
