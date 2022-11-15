@@ -20,13 +20,13 @@ export default function Especialidad() {
     />
   </div>
   <div className="mt-4 flex flex-col gap-2">
-    <span className="text-blue-600 uppercase font-semibold text-xs">
+    <span className="text-blue-600 uppercase font-semibold text-xs text-white">
       Producto
     </span>
-    <a href="#" className="text-2xl font-semibold hover:underline">
+    <a href="#" className="text-2xl font-semibold hover:underline text-white">
       Contruí un blog exitoso en un año
     </a>
-    <p className="text-gray-600">
+    <p className="text-white">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac
       aliquam ligula. Sed et massa pulvinar, interdum leo id, maximus
       lorem. Donec aliquet auctor turpis ut aliquet. Donec accumsan eu
@@ -37,14 +37,13 @@ export default function Especialidad() {
         <img 
           src="https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg?w=2000&t=st=1660333883~exp=1660334483~hmac=70d21d08617e34074243187ec59df8fd4b564c084f33609c6db242de4e40fc01"
           className="w-[40px] h-[40px] object-cover rounded-full"
-          alt="Yared Jacquez Trillo"
         />
-        <div>
+        <div className="text-white">
           <span>Yared Jacquez Trillo</span>
         </div>
       </div>
       <div>
-        <p className="uppercase text-gray-600 text-sm">19 sep 2022</p>
+        <p className="uppercase text-gray-600 text-sm text-white">19 sep 2022</p>
       </div>
     </div>
   </div>
@@ -63,13 +62,13 @@ export default function Especialidad() {
     />
   </div>
   <div className="mt-4 flex flex-col gap-2">
-    <span className="text-blue-600 uppercase font-semibold text-xs">
+    <span className="text-blue-600 uppercase font-semibold text-xs text-white">
       Producto
     </span>
-    <a href="#" className="text-2xl font-semibold hover:underline">
+    <a href="#" className="text-2xl font-semibold hover:underline text-white">
       Contruí un blog exitoso en un año
     </a>
-    <p className="text-gray-600">
+    <p className="text-white">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac
       aliquam ligula. Sed et massa pulvinar, interdum leo id, maximus
       lorem. Donec aliquet auctor turpis ut aliquet. Donec accumsan eu
@@ -80,22 +79,19 @@ export default function Especialidad() {
         <img 
           src="https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg?w=2000&t=st=1660333883~exp=1660334483~hmac=70d21d08617e34074243187ec59df8fd4b564c084f33609c6db242de4e40fc01"
           className="w-[40px] h-[40px] object-cover rounded-full"
-          alt="Yared Jacquez Trillo"
         />
-        <div>
+        <div className="text-white">
           <span>Yared Jacquez Trillo</span>
         </div>
       </div>
       <div>
-        <p className="uppercase text-gray-600 text-sm">19 sep 2022</p>
+        <p className="uppercase text-gray-600 text-sm text-white">19 sep 2022</p>
       </div>
     </div>
   </div>
 </div>
 
 </section>
-
-
 
 
       </main>
