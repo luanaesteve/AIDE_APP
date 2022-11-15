@@ -14,33 +14,30 @@ export default function Especialidad() {
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 p-10 pb-8 rounded-xl bg-violetaosc">
   <div>
     <img 
-      src="https://www.pragma.com.co/hs-fs/hubfs/h_react.jpg?width=792&name=h_react.jpg" 
+      src="https://blog.hubspot.es/hubfs/media/lenguajesprogramacion.jpeg" 
       className="w-full md:w-[500px] h-full md:h-[300px] object-cover rounded-lg" 
       alt="" 
     />
   </div>
   <div className="mt-4 flex flex-col gap-2">
     <span className="text-blue-600 uppercase font-semibold text-xs text-white">
-      Producto
+      AIDE
     </span>
     <a href="#" className="text-2xl font-semibold hover:underline text-white">
-      Contruí un blog exitoso en un año
+      Especialidad de la Escuela Tecnica 20
     </a>
     <p className="text-white">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac
-      aliquam ligula. Sed et massa pulvinar, interdum leo id, maximus
-      lorem. Donec aliquet auctor turpis ut aliquet. Donec accumsan eu
-      ipsum a vehicula.
+    E.P.E.T N°20 es una institución educativa secundaria técnica, con orientación a Técnico en programación.
+    Esta enseñera distinto tipos de lenguaje de programacion, y programas que se utiliza hoy en dia en el ambito de la programacion,
+    como por ejemplo php, java, html, js, pseint, entre otros.
     </p>
     <div className="mt-4 flex items-center justify-between">
       <div className="flex items-center gap-4">
        
-        <div className="text-white">
-          <span>Yared Jacquez Trillo</span>
-        </div>
+     
       </div>
       <div>
-        <p className="uppercase text-gray-600 text-sm text-white">19 sep 2022</p>
+        <p className="uppercase text-gray-600 text-sm text-white">15 noviembre 2022</p>
       </div>
     </div>
   </div>
