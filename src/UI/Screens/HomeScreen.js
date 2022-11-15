@@ -33,7 +33,7 @@ export default function HomeScreen() {
             </g>
       </svg>
       <h2 className="text-2xl font-bold text-gray-900">
-        Lorem ipsum dolor sit amet
+        Sobre nosotros
       </h2>
       <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-5xl text-indigo-500" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
         <g>
@@ -43,10 +43,8 @@ export default function HomeScreen() {
       </svg>
     </div>
     <p className="my-4 text-gray-500 text-center ">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
-      quibusdam ducimus libero ad tempora doloribus expedita laborum
-      saepe voluptas perferendis delectus assumenda rerum, culpa aperiam
-      dolorum, obcaecati corrupti aspernatur a.
+    E.P.E.T N°20 es una institución educativa secundaria técnica, con orientación a Técnico en programación.
+    En nuestro establecimiento poseemos diferentes aulas y talleres especializados en la orientación académica y además de recreativos, tales sean como, sala multimedia, talleres de ciclo básico y superior, biblioteca, S.U.M, aulas teóricas, asesoría, preceptoría, oficina técnica, cocina y kiosko.
     </p>
     <div className="mb-8">
       <h4 className="text-lg text-indigo-500 font-bold text-center">
