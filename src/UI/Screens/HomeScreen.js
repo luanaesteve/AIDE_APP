@@ -151,7 +151,7 @@ export default function HomeScreen() {
             <div className="flex flex-col xl:flex-row xl:items-center justify-between gap-4">
               <div className="flex items-center gap-4">
                 <img
-                  src="https://img.freepik.com/foto-gratis/retrato-mujer-mayor-cerca_23-2149207185.jpg"
+                  src="https://init-dev.com.ar/wp-content/uploads/2022/06/exequiel-iajpg-244x300.jpg"
                   className="w-14 h-14 object-cover rounded-full"
                 />
                 <div>
