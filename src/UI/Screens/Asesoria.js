@@ -50,7 +50,7 @@ export default function Asesoria() {
     </div>
     <div className="flex flex-col gap-4 px-6">
       <p className="text-white text-center lg:text-left">
-        Asesora especializada en adolescentes, mayormente los alumnos concurren a ella para poder hablar y tener un espacio seguro. Se incorporó en 2018.
+        Asesora especializada en adolescentes, mayormente los alumnos conncurren a ella para poder hablar y tener un espacio seguro. Se incorporó en 2018.
       </p>
       <div className="flex items-center justify-center lg:justify-start gap-2 py-4">
         
