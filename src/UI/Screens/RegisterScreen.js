@@ -6,10 +6,16 @@ import { Alert } from "./Alert";
 export default function RegisterScreen() {
   const { signup } = useAuth();
 
-  const [user, setUser] = useState({
+  const [user, setUser, ] = useState({
     email: "",
     password: "",
+    
   });
+
+const [] = ({
+  nombre:"",
+  apeliido:"",
+});
 
   const [error, setError] = useState("");
   const navigate = useNavigate();
