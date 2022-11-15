@@ -11,7 +11,7 @@ export default function Especialidad() {
         <Header2 />
         {/* Section 1 */}
         <section className="grid grid-cols-1  mt-10 gap-8">
-        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 p-10 pb-8 rounded-xl bg-gray-100">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 p-10 pb-8 rounded-xl bg-violetaosc">
   <div>
     <img 
       src="https://img.freepik.com/foto-gratis/programador-sonriente-tiro-medio-sosteniendo-telefono_23-2149101155.jpg?w=2000&t=st=1660331259~exp=1660331859~hmac=4a6b4885e8141e344e237674190db60aa4431782337bc5df8a22e9d895ebdd6f" 
@@ -54,7 +54,7 @@ export default function Especialidad() {
 
 {/* Section 2 */}
 <section className="grid grid-cols-1  mt-10 gap-8">
-        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 p-10 pb-8 rounded-xl bg-gray-100">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 p-10 pb-8 rounded-xl bg-violetaosc">
   <div>
     <img 
       src="https://img.freepik.com/foto-gratis/programador-sonriente-tiro-medio-sosteniendo-telefono_23-2149101155.jpg?w=2000&t=st=1660331259~exp=1660331859~hmac=4a6b4885e8141e344e237674190db60aa4431782337bc5df8a22e9d895ebdd6f" 
