@@ -5,16 +5,16 @@ import Header from "../Components/Header";
  
 export default function Especialidad() {
    return (
-    <div className="grid lg:grid-cols-4 xl:grid-cols-6 min-h-screen">
-    <Sidebar />
-    <main className="lg:col-span-3 xl:col-span-5 bg-gray-100 p-10 h-[600vh] overflow-y-scroll ">
-      <Header />
-{/* SECCION 1*/}
-<section className="mt-10 gap-10 items-center">
-<div className="bg-white rounded-lg shadow hover:shadow-xl transition-all w-full md:w-1/2 justify-center">
+      <div className="grid lg:grid-cols-4 xl:grid-cols-6 min-h-screen">
+      <Sidebar />
+      <main className="lg:col-span-3 xl:col-span-5 bg-gray-100 p-10 h-[100vh] overflow-y-scroll ">
+        <Header />
+        {/* Section 1 */}
+        <section className="grid grid-cols-1  mt-10 gap-8">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 p-10 pb-8 rounded-xl bg-gray-100">
   <div>
     <img 
-      src="https://www.ucreativa.com/wp-content/uploads/04.-Certificaci%C3%B3n-T%C3%A9cnica-en-Desarrollo-Web-Front-End-con-React.jpg" 
+      src="https://img.freepik.com/foto-gratis/programador-sonriente-tiro-medio-sosteniendo-telefono_23-2149101155.jpg?w=2000&t=st=1660331259~exp=1660331859~hmac=4a6b4885e8141e344e237674190db60aa4431782337bc5df8a22e9d895ebdd6f" 
       className="w-full md:w-[500px] h-full md:h-[300px] object-cover rounded-lg" 
       alt="" 
     />
@@ -26,21 +26,21 @@ export default function Especialidad() {
     <a href="#" className="text-2xl font-semibold hover:underline">
       Contruí un blog exitoso en un año
     </a>
-    <p className="text-gray-600 flex items-center">
-    E.P.E.T N°20 es una institución educativa secundaria técnica, con orientación a Técnico en programación.
-    Esta enseñera distinto tipos de lenguaje de programacion, y programas que se utiliza hoy en dia en el ambito de la programacion,
-    como por ejemplo php, java, html, js, pseint, entre otros.
-    
+    <p className="text-gray-600">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac
+      aliquam ligula. Sed et massa pulvinar, interdum leo id, maximus
+      lorem. Donec aliquet auctor turpis ut aliquet. Donec accumsan eu
+      ipsum a vehicula.
     </p>
     <div className="mt-4 flex items-center justify-between">
       <div className="flex items-center gap-4">
         <img 
-          src="http://epet20.com.ar/assets/img/logo.png"
+          src="https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg?w=2000&t=st=1660333883~exp=1660334483~hmac=70d21d08617e34074243187ec59df8fd4b564c084f33609c6db242de4e40fc01"
           className="w-[40px] h-[40px] object-cover rounded-full"
           alt="Yared Jacquez Trillo"
         />
         <div>
-          <span>Yared Jacquez Trillo o</span>
+          <span>Yared Jacquez Trillo</span>
         </div>
       </div>
       <div>
