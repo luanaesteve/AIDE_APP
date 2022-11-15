@@ -15,7 +15,7 @@ export default function Especialidad() {
   <div>
     <img 
       src="https://blog.hubspot.es/hubfs/media/lenguajesprogramacion.jpeg" 
-      className="w-full md:w-[500px] h-full md:h-[300px] object-cover rounded-lg" 
+      className="w-full md:w-[540px] h-full md:h-[300px] object-cover rounded-lg" 
       alt="" 
     />
   </div>
@@ -50,42 +50,175 @@ export default function Especialidad() {
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 p-10 pb-8 rounded-xl bg-violetaosc">
   <div>
     <img 
-      src="https://img.freepik.com/foto-gratis/programador-sonriente-tiro-medio-sosteniendo-telefono_23-2149101155.jpg?w=2000&t=st=1660331259~exp=1660331859~hmac=4a6b4885e8141e344e237674190db60aa4431782337bc5df8a22e9d895ebdd6f" 
-      className="w-full md:w-[500px] h-full md:h-[300px] object-cover rounded-lg" 
+      src="https://www.pragma.com.co/hs-fs/hubfs/h_react.jpg?width=792&name=h_react.jpg" 
+      className="w-full md:w-[600px] h-full md:h-[300px] object-cover rounded-lg" 
       alt="" 
     />
   </div>
   <div className="mt-4 flex flex-col gap-2">
     <span className="text-blue-600 uppercase font-semibold text-xs text-white">
-      Producto
+      React
     </span>
     <a href="#" className="text-2xl font-semibold hover:underline text-white">
-      Contruí un blog exitoso en un año
+      Aplicacion creada por react
     </a>
     <p className="text-white">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac
-      aliquam ligula. Sed et massa pulvinar, interdum leo id, maximus
-      lorem. Donec aliquet auctor turpis ut aliquet. Donec accumsan eu
-      ipsum a vehicula.
+    React es una biblioteca Javascript de código abierto diseñada 
+    para crear interfaces de usuarios.
+    AIDE fue una aplicacione creada como proyecto final de la
+    la materia Programacion Web, esta misma fue desarrollada durante
+    todo el año, por las estudiantes "Luana Esteve", "Abigail Salcedo" y "Nicole Aramayo".
+
+    
     </p>
     <div className="mt-4 flex items-center justify-between">
       <div className="flex items-center gap-4">
-        <img 
-          src="https://img.freepik.com/foto-gratis/retrato-hermoso-mujer-joven-posicion-pared-gris_231208-10760.jpg?w=2000&t=st=1660333883~exp=1660334483~hmac=70d21d08617e34074243187ec59df8fd4b564c084f33609c6db242de4e40fc01"
-          className="w-[40px] h-[40px] object-cover rounded-full"
-        />
-        <div className="text-white">
-          <span>Yared Jacquez Trillo</span>
-        </div>
+       
+        
       </div>
       <div>
-        <p className="uppercase text-gray-600 text-sm text-white">19 sep 2022</p>
+        <p className="uppercase text-gray-600 text-sm text-white">15 noviembre 2022</p>
       </div>
     </div>
   </div>
 </div>
 
 </section>
+
+
+{/* Section 3 */}
+
+<section className="grid grid-cols-1  mt-10 gap-8">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 p-10 pb-8 rounded-xl bg-violetaosc">
+  <div>
+    <img 
+      src="https://cptn.org.ar/wp-content/uploads/2021/11/epet20-feria-especialidades.jpg" 
+      className="w-full md:w-[400px] h-full md:h-[300px] object-cover rounded-lg" 
+      alt="" 
+    />
+  </div>
+  <div className="mt-4 flex flex-col gap-2">
+    <span className="text-blue-600 uppercase font-semibold text-xs text-white">
+      React
+    </span>
+    <a href="#" className="text-2xl font-semibold hover:underline text-white">
+      Aplicacion creada por react
+    </a>
+    <p className="text-white">
+    Materias de 4° año: analisis matematico,instruccion civica, logica, quimica aplicada, introduccion a la programacion,
+fisica, introduccion a las bases de datos, ingles tecnico, literatura.
+<p className="text-white">
+    
+    Talleres: Base de Datos, Electrónica, Lenguaje de Programación
+
+    
+    </p>
+
+    
+    </p>
+    <div className="mt-4 flex items-center justify-between">
+      <div className="flex items-center gap-4">
+       
+        
+      </div>
+      <div>
+        <p className="uppercase text-gray-600 text-sm text-white">15 noviembre 2022</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+{/* Section 4 */}
+
+<section className="grid grid-cols-1  mt-10 gap-8">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 p-10 pb-8 rounded-xl bg-violetaosc">
+  <div>
+    <img 
+      src="https://cptn.org.ar/wp-content/uploads/2021/11/epet20-feria-especialidades.jpg" 
+      className="w-full md:w-[400px] h-full md:h-[300px] object-cover rounded-lg" 
+      alt="" 
+    />
+  </div>
+  <div className="mt-4 flex flex-col gap-2">
+    <span className="text-blue-600 uppercase font-semibold text-xs text-white">
+      React
+    </span>
+    <a href="#" className="text-2xl font-semibold hover:underline text-white">
+      Aplicacion creada por react
+    </a>
+    <p className="text-white">
+    Materias de 4° año: analisis matematico,instruccion civica, logica, quimica aplicada, introduccion a la programacion,
+fisica, introduccion a las bases de datos, ingles tecnico, literatura.
+<p className="text-white">
+    
+    Talleres: Base de Datos, Electrónica, Lenguaje de Programación
+
+    
+    </p>
+
+    
+    </p>
+    <div className="mt-4 flex items-center justify-between">
+      <div className="flex items-center gap-4">
+       
+        
+      </div>
+      <div>
+        <p className="uppercase text-gray-600 text-sm text-white">15 noviembre 2022</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
+{/* Section 5 */}
+
+<section className="grid grid-cols-1  mt-10 gap-8">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 p-10 pb-8 rounded-xl bg-violetaosc">
+  <div>
+    <img 
+      src="https://cptn.org.ar/wp-content/uploads/2021/11/epet20-feria-especialidades.jpg" 
+      className="w-full md:w-[420px] h-full md:h-[300px] object-cover rounded-lg" 
+      alt="" 
+    />
+  </div>
+  <div className="mt-4 flex flex-col gap-2">
+    <span className="text-blue-600 uppercase font-semibold text-xs text-white">
+      React
+    </span>
+    <a href="#" className="text-2xl font-semibold hover:underline text-white">
+      Aplicacion creada por react
+    </a>
+    <p className="text-white">
+    Materias de 5° año:ciencia, tecnologia e informacion,organizacion y arquitectura, sistemas operativos,
+    practicas profesionalizantes, tecnicas avanzadas de programacion, estadistica y probabilidad
+    principios de testing, tecnologia de redes I, ingles tecnico II, Programación estática
+<p className="text-white">
+    
+    Talleres: Programación Web Estática, Sistemas Operativos, Programación Intermedia
+
+    
+    </p>
+
+    
+    </p>
+    <div className="mt-4 flex items-center justify-between">
+      <div className="flex items-center gap-4">
+       
+        
+      </div>
+      <div>
+        <p className="uppercase text-gray-600 text-sm text-white">15 noviembre 2022</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
 
 
       </main>
