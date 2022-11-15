@@ -19,7 +19,7 @@ export default function HomeScreen() {
 
   <div>
     <img
-      src="https://www.neuqueninforma.gob.ar/wp-content/uploads/2017/01/WEB-NO-CABEZA...EPET-20.jpg"
+      src="https://media.lmneuquen.com/p/09d540bd555372c59ef0193e326033b0/adjuntos/195/imagenes/006/925/0006925675/770x0/smart/epet-20-fachada.png"
       className="object-cover rounded-xl w-full md:w-auto md:max-w-sm -mt-20 drop-shadow-2xl object-center"
     />
   </div>
