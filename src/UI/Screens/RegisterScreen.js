@@ -1,9 +1,14 @@
-import { useState } from "react";
+import { useState, React } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../Context/AuthContext";
 import { Alert } from "./Alert";
 
+
+
 export default function RegisterScreen() {
+
+  
+
   const { signup } = useAuth();
 
   const [user, setUser, ] = useState({
@@ -12,10 +17,12 @@ export default function RegisterScreen() {
     
   });
 
-const [] = ({
-  nombre:"",
-  apeliido:"",
-});
+const [newDatos, setNewDatos] =React.useState({
+  Nombre:'',
+  Apellido:'',
+})  
+
+
 
   const [error, setError] = useState("");
   const navigate = useNavigate();
