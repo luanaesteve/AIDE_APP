@@ -26,7 +26,7 @@ export default function HomeScreen() {
 
   <div>
     <div className="flex items-center gap-4 justify-center">
-      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-5xl text-indigo-500" height="2em" width="1em" xmlns="http://www.w3.org/2000/svg">
+      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-5xl text-purple-600" height="2em" width="1em" xmlns="http://www.w3.org/2000/svg">
         <g>
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621.537-.278 1.24-.375 1.929-.311 1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5c-1.073 0-2.099-.49-2.748-1.179z"></path>
@@ -35,7 +35,7 @@ export default function HomeScreen() {
       <h2 className="text-2xl text-center font-bold text-gray-900">
         Sobre nosotros
       </h2>
-      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-5xl text-indigo-500" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+      <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" class="text-5xl text-purple-600" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
         <g>
             <path fill="none" d="M0 0h24v24H0z"></path>
             <path d="M19.417 6.679C20.447 7.773 21 9 21 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311-1.804-.167-3.226-1.648-3.226-3.489a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179zm-10 0C10.447 7.773 11 9 11 10.989c0 3.5-2.457 6.637-6.03 8.188l-.893-1.378c3.335-1.804 3.987-4.145 4.247-5.621-.537.278-1.24.375-1.929.311C4.591 12.322 3.17 10.841 3.17 9a3.5 3.5 0 0 1 3.5-3.5c1.073 0 2.099.49 2.748 1.179z"></path>
@@ -70,12 +70,12 @@ export default function HomeScreen() {
             <div className="grid grid-cols-1 xl:grid-cols-4 items-center gap-4 mb-4">
               <div className="col-span-2 flex items-center gap-4">
                 <img
-                  src="https://img.freepik.com/foto-gratis/hombre-joven-hermoso-contento-camiseta-azul-que-senala-lado_1262-17845.jpg"
+                  src="http://feibm.com.co/wp-content/uploads/2017/10/mujer-perfil.jpg"
                   className="w-14 h-14 object-cover rounded-xl"
                 />
                 <div>
                   <h3 className="font-bold">Luana Esteve</h3>
-                  <p className="text-gray-500 text-center ">Tecnica graduada en hierbas naturales</p>
+                  <p className="text-gray-500 text-center  ">6to 1era - Tecnica programadora</p>
                 </div>
               </div>
               <div>
@@ -91,12 +91,12 @@ export default function HomeScreen() {
             <div className="grid grid-cols-1 xl:grid-cols-4 items-center gap-4 mb-4">
               <div className="col-span-2 flex items-center gap-4">
                 <img
-                  src="https://img.freepik.com/foto-gratis/alegre-joven-deportista-posando-mostrando-pulgares-arriba-gesto_171337-8194.jpg"
+                  src="http://feibm.com.co/wp-content/uploads/2017/10/mujer-perfil.jpg"
                   className="w-14 h-14 object-cover rounded-xl"
                 />
                 <div>
                   <h3 className="font-bold">Nicole Aramayo</h3>
-                  <p className="text-gray-500 text-center">Fumadora de cigarros PROFESIONAL</p>
+                  <p className="text-gray-500 text-center">6to 1era - Tecnica programadora</p>
                 </div>
               </div>
               <div>
@@ -113,12 +113,12 @@ export default function HomeScreen() {
           <div className="grid grid-cols-1 xl:grid-cols-4 items-center gap-4 mb-4">
               <div className="col-span-2 flex items-center gap-4">
                 <img
-                  src="https://img.freepik.com/foto-gratis/hombre-joven-hermoso-contento-camiseta-azul-que-senala-lado_1262-17845.jpg"
+                  src="http://feibm.com.co/wp-content/uploads/2017/10/mujer-perfil.jpg"
                   className="w-14 h-14 object-cover rounded-xl"
                 />
                 <div>
                   <h3 className="font-bold">Abigail Salcedo</h3>
-                  <p className="text-gray-500 text-center ">No se baña PROFESIONAL</p>
+                  <p className="text-gray-500 text-center ">6to 1era - Tecnica programadora</p>
                 </div>
               </div>
               <div>
