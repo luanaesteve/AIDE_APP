@@ -5,6 +5,7 @@ import { Alert } from "./Alert";
 import google  from '../Image/google.png';
 import facebook  from '../Image/facebook.png';
 import tw  from '../Image/tw.png';
+
 export default function LoginScreen() {
   const [user, setUser] = useState({
     email: "",
@@ -57,7 +58,7 @@ export default function LoginScreen() {
         
           <label
             htmlFor="email"
-            className="font-medium text-zinc-300 "
+            className="font-medium text-zinc-300 text-gray-600"
           >
             Correo electronico
           </label>
