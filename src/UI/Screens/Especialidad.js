@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "../Components/SideBar";
-import Header from "../Components/Header";
+import Header2 from "../Components/Header2";
 
  
 export default function Especialidad() {
@@ -8,7 +8,7 @@ export default function Especialidad() {
     <div className="grid lg:grid-cols-4 xl:grid-cols-6 min-h-screen">
     <Sidebar />
     <main className="lg:col-span-3 xl:col-span-5 bg-gray-100 p-10 h-[100vh] overflow-y-scroll ">
-      <Header />
+      <Header2 />
 {/* SECCION 1*/}
 <section className="mt-10 gap-10 items-center">
 <div className="bg-white rounded-lg shadow hover:shadow-xl transition-all w-full md:w-1/2 md:object-center justify-center">
