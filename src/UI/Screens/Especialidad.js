@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "../Components/SideBar";
-import Header from "../Components/Header";
+import Header2 from "../Components/Header2";
 
  
 export default function Especialidad() {

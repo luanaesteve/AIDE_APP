@@ -46,7 +46,9 @@ const Sidebar = () => {
               href="#"
               className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-purple-800 transition-colors"
             >
-              <RiHome3Line /> Inicio
+              <RiHome3Line /> <Link to="/home">
+          Inicio
+        </Link>
             </a>
             <a
               href="#"
@@ -60,18 +62,22 @@ const Sidebar = () => {
               href="#"
               className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-purple-800 transition-colors"
             >
-              <RiCalendarCheckFill /> Calendario
+              <RiCalendarCheckFill /> <Link to="/calendario">
+          Calendario
+        </Link>
             </a>
             <a
               href="#"
               className="flex items-center gap-4 text-white py-2 px-4 rounded-xl hover:bg-purple-800 transition-colors"
             >
-              <RiFingerprintFill /> Ajustes
+              <RiFingerprintFill /> <Link to="/asesoria">
+          Asesoria
+        </Link>
             </a>
         
           </nav>
-          <div className="bg-primary-900/50 text-white p-4 rounded-xl">
-          <a className="px-2 text-center"
+          <div className="bg-purple-800 text-white p-4 rounded-xl ">
+          <a className="px-2 text-center s:px-18 s:p-18"
           onClick={handleLogout}
         >
         Cerrar sesion 
@@ -84,7 +90,7 @@ const Sidebar = () => {
       {/* Button mobile */}
       <button
         onClick={() => setShowMenu(!showMenu)}
-        className="lg:hidden fixed right-4 bottom-4 text-2xl bg-primary-900 p-2.5 rounded-full text-white z-50"
+        className="lg:hidden fixed right-4 bottom-4 text-2xl bg-purple-800 p-2.5 rounded-full text-white z-50"
       >
         {showMenu ? <RiCloseFill /> : <RiMore2Fill />}
       </button>
