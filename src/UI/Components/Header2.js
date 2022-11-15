@@ -1,12 +1,12 @@
 import React from "react";
 // Icons
-import { RiSearch2Line } from "react-icons/ri";
+import { RiSearch2Line, RiHandHeartFill } from "react-icons/ri";
 
 const Header2 = () => {
   return (
     <header className="flex flex-col md:flex-row items-center justify-between gap-4">
       <h1 className="text-2xl md:text-3xl font-bold">
-         <span className="text-purple-500">Asesoria Pedagogica</span>
+         <span className="text-violet font-semibold">A I D E</span>
       </h1>
       <form className="w-full md:w-auto">
       <div className="relative">
@@ -14,7 +14,7 @@ const Header2 = () => {
           <input
             type="text"
             className="bg-gray-200 outline-none py-2 pl-8 pr-4 rounded-xl w-full md:w-auto"
-            placeholder="Search for projects"
+            placeholder="Buscar contenido"
           />
         </div>
       </form>
