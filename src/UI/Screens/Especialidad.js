@@ -65,8 +65,8 @@ export default function Especialidad() {
     <p className="text-white">
     React es una biblioteca Javascript de código abierto diseñada 
     para crear interfaces de usuarios.
-    AIDE fue una aplicacione creada como proyecto final de la
-    la materia Programacion Web, esta misma fue desarrollada durante
+    AIDE fue una aplicación creada como proyecto final de 
+    la materia Programación Web Dinámica, esta misma fue desarrollada durante
     todo el año, por las estudiantes "Luana Esteve", "Abigail Salcedo" y "Nicole Aramayo".
 
     
