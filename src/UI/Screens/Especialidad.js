@@ -99,10 +99,10 @@ export default function Especialidad() {
   </div>
   <div className="mt-4 flex flex-col gap-2">
     <span className="text-blue-600 uppercase font-semibold text-xs text-white">
-      React
+      Programacion
     </span>
     <a href="#" className="text-2xl font-semibold hover:underline text-white">
-      Aplicacion creada por react
+      Orientacion - Cuarto año 
     </a>
     <p className="text-white">
     Materias de 4° año: analisis matematico,instruccion civica, logica, quimica aplicada, introduccion a la programacion,
@@ -130,94 +130,6 @@ fisica, introduccion a las bases de datos, ingles tecnico, literatura.
 
 </section>
 
-{/* Section 4 */}
-
-<section className="grid grid-cols-1  mt-10 gap-8">
-        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 p-10 pb-8 rounded-xl bg-violetaosc">
-  <div>
-    <img 
-      src="https://cptn.org.ar/wp-content/uploads/2021/11/epet20-feria-especialidades.jpg" 
-      className="w-full md:w-[400px] h-full md:h-[300px] object-cover rounded-lg" 
-      alt="" 
-    />
-  </div>
-  <div className="mt-4 flex flex-col gap-2">
-    <span className="text-blue-600 uppercase font-semibold text-xs text-white">
-      React
-    </span>
-    <a href="#" className="text-2xl font-semibold hover:underline text-white">
-      Aplicacion creada por react
-    </a>
-    <p className="text-white">
-    Materias de 4° año: analisis matematico,instruccion civica, logica, quimica aplicada, introduccion a la programacion,
-fisica, introduccion a las bases de datos, ingles tecnico, literatura.
-<p className="text-white">
-    
-    Talleres: Base de Datos, Electrónica, Lenguaje de Programación
-
-    
-    </p>
-
-    
-    </p>
-    <div className="mt-4 flex items-center justify-between">
-      <div className="flex items-center gap-4">
-       
-        
-      </div>
-      <div>
-        <p className="uppercase text-gray-600 text-sm text-white">15 noviembre 2022</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-</section>
-
-{/* Section 5 */}
-
-<section className="grid grid-cols-1  mt-10 gap-8">
-        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8 p-10 pb-8 rounded-xl bg-violetaosc">
-  <div>
-    <img 
-      src="https://cptn.org.ar/wp-content/uploads/2021/11/epet20-feria-especialidades.jpg" 
-      className="w-full md:w-[420px] h-full md:h-[300px] object-cover rounded-lg" 
-      alt="" 
-    />
-  </div>
-  <div className="mt-4 flex flex-col gap-2">
-    <span className="text-blue-600 uppercase font-semibold text-xs text-white">
-      React
-    </span>
-    <a href="#" className="text-2xl font-semibold hover:underline text-white">
-      Aplicacion creada por react
-    </a>
-    <p className="text-white">
-    Materias de 5° año:ciencia, tecnologia e informacion,organizacion y arquitectura, sistemas operativos,
-    practicas profesionalizantes, tecnicas avanzadas de programacion, estadistica y probabilidad
-    principios de testing, tecnologia de redes I, ingles tecnico II, Programación estática
-<p className="text-white">
-    
-    Talleres: Programación Web Estática, Sistemas Operativos, Programación Intermedia
-
-    
-    </p>
-
-    
-    </p>
-    <div className="mt-4 flex items-center justify-between">
-      <div className="flex items-center gap-4">
-       
-        
-      </div>
-      <div>
-        <p className="uppercase text-gray-600 text-sm text-white">15 noviembre 2022</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-</section>
 
 
 
